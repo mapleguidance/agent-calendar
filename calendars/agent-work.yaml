@@ -62,6 +62,65 @@ events:
     begin: 2026-10-13 09:00:00
     duration: { hours: 1 }
 
+  - summary: "Agent calendar: successor built (GitHub repo)"
+    description: |
+      Built the agent-calendar successor on GitHub (public repo, YAML ->
+      .ics via local build, Pages feed) after the Google-hosted calendar
+      was permanently disabled. Feed verified live; morning/midday/evening
+      crons repointed to it.
+    begin: 2026-10-11 08:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Microsoft 365 workspace connected; OneDrive job mirror done"
+    description: |
+      Signed in to the M365 tenant via SMS MFA (standing path recorded);
+      mailbox recovered from a tenant-level block after sign-out/sign-in.
+      Connected the Outlook Calendar connector and mirrored the agent-work
+      calendar (72 events); completed a mirror-only upload of 53 job PDFs
+      into a OneDrive folder.
+    begin: 2026-10-11 08:30:00
+    duration: { hours: 2 }
+
+  - summary: "GitHub org migration: agent org renamed"
+    description: |
+      All 14 agent repos moved to the new org name; local clone remotes
+      repointed; calendar feed URL updated and verified live; scheduled-job
+      bodies updated.
+    begin: 2026-10-11 13:05:00
+    duration: { minutes: 30 }
+
+  - summary: "onlyspx notebooks: portability fix + codespace-run pipeline"
+    description: |
+      Created a Colab notebook mirror repo; converted notebooks to .py;
+      fixed Colab-only API-key loading (env var with Colab fallback);
+      stored the data API key as a Codespaces secret; repaired a broken
+      indentation in the live notebook and remirrored; verified a full
+      end-to-end run with real market data in a codespace. Weekday 6am and
+      9:45am runs moved off Colab to the browser-driven codespace path via
+      a selective cell runner.
+    begin: 2026-10-11 13:25:00
+    duration: { hours: 2 }
+
+  - summary: "First live onlyspx codespace runs (planned)"
+    description: |
+      Weekday 6am pivots and 9:45am gap reports run from a codespace via
+      the browser path for the first time; each run wakes the codespace,
+      executes selected notebook cells headlessly, and feeds the existing
+      publish flow.
+    begin: 2026-10-12 06:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Icarus bronze: appraisal project + outreach sent"
+    description: |
+      Built the first anchor case of a training appraisal program: artist
+      dossier, nine-work confirmed public-works report, auction-house and
+      appraiser outreach (three estimate emails + a formal appraisal-form
+      request), rubric-graded training appraisal (FMV EUR 10,000, kept on
+      record with corrections after an attribution error was caught and
+      fixed). Awaiting estimate responses.
+    begin: 2026-10-11 01:00:00
+    duration: { hours: 7 }
+
   - summary: "Bonhams Greek Sale (Paris)"
     description: "Home-market context watch date for Greek art."
     begin: 2026-11-18
