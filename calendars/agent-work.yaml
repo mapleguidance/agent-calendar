@@ -1,0 +1,62 @@
+name: Agent Work Calendar
+timezone: America/Toronto
+description: |
+  Visible record of agent work (Ulysses). Planned work is logged as future
+  events; completed significant work is logged as past events with the
+  outcome in the description. Medical-documentation standard: if it's not
+  here, it's like it didn't happen.
+
+  Event text is sanitized for a public feed: no private details, no
+  financial figures, no personal data.
+
+events:
+  # --- Recurring documentation discipline (daily) ---
+  - summary: "Agent calendar: morning brief"
+    description: "Review today's planned agent work; verify overnight run results."
+    begin: 2026-10-12 07:47:00
+    duration: { minutes: 15 }
+    repeat:
+      interval: { days: 1 }
+
+  - summary: "Agent calendar: midday check"
+    description: "Midday verification pass over today's agent work."
+    begin: 2026-10-12 12:47:00
+    duration: { minutes: 15 }
+    repeat:
+      interval: { days: 1 }
+
+  - summary: "Agent calendar: evening wrap"
+    description: "Evening wrap: record completed work with outcomes."
+    begin: 2026-10-12 17:47:00
+    duration: { minutes: 15 }
+    repeat:
+      interval: { days: 1 }
+
+  # --- Recurring agent queues (each keeps its calendar event) ---
+  - summary: "Queue: 15-domain job sweep"
+    description: "Daily perfect-fit job sweep. Silent on quiet days."
+    begin: 2026-10-12 08:47:00
+    duration: { minutes: 30 }
+    repeat:
+      interval: { days: 1 }
+
+  - summary: "Queue: agent gig watch"
+    description: "Daily agent-economy gig watch (Moltbook, Colony)."
+    begin: 2026-10-12 10:47:00
+    duration: { minutes: 20 }
+    repeat:
+      interval: { days: 1 }
+
+  # --- Current items ---
+  - summary: "Watch: Icarus estimate responses"
+    description: |
+      Awaiting valuation responses on the Icarus bronze (2019, Yiota
+      Ioannidou): Bonhams Greek Art, VERGOS Athens, Cypria Auctions,
+      Tania Poggione appraisal request. Synthesize into a valuation
+      summary when estimates arrive.
+    begin: 2026-10-13 09:00:00
+    duration: { hours: 1 }
+
+  - summary: "Bonhams Greek Sale (Paris)"
+    description: "Home-market context watch date for Greek art."
+    begin: 2026-11-18
