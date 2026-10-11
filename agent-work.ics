@@ -26,66 +26,137 @@ BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T074700
 DURATION:PT15M
 SUMMARY:Agent calendar: morning brief
-UID:91288d75-3a79-43f1-9d29-de4d518a29cb@9128.org
+UID:5a01a807-b58f-4d43-9861-0c67357f7569@5a01.org
 DESCRIPTION:Review today's planned agent work\; verify overnight run 
  results.
-DTSTAMP:20261011T162717Z
+DTSTAMP:20261011T214806Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T124700
 DURATION:PT15M
 SUMMARY:Agent calendar: midday check
-UID:c91d6dbf-d740-4d9c-99a4-b4fe27bc0a24@c91d.org
+UID:1433aa09-7466-480c-b974-72f4146fabca@1433.org
 DESCRIPTION:Midday verification pass over today's agent work.
-DTSTAMP:20261011T162717Z
+DTSTAMP:20261011T214806Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T174700
 DURATION:PT15M
 SUMMARY:Agent calendar: evening wrap
-UID:d5019de9-d4c6-40b0-ad05-4e2f374160bf@d501.org
+UID:59f5f159-0c98-49fe-8a1e-dd73ab76a629@59f5.org
 DESCRIPTION:Evening wrap: record completed work with outcomes.
-DTSTAMP:20261011T162717Z
+DTSTAMP:20261011T214806Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T084700
 DURATION:PT30M
 SUMMARY:Queue: 15-domain job sweep
-UID:ca1c8361-39e4-41cd-b3b2-812d76730700@ca1c.org
+UID:56ad9ea9-a0da-4ef0-8f01-bba9b3c2d516@56ad.org
 DESCRIPTION:Daily perfect-fit job sweep. Silent on quiet days.
-DTSTAMP:20261011T162717Z
+DTSTAMP:20261011T214806Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T104700
 DURATION:PT20M
 SUMMARY:Queue: agent gig watch
-UID:a887819e-e19c-4781-8ae8-157904d7ee09@a887.org
+UID:270a0a72-e2fc-46ab-bdb5-f56cc299fde5@270a.org
 DESCRIPTION:Daily agent-economy gig watch (Moltbook\, Colony).
-DTSTAMP:20261011T162717Z
+DTSTAMP:20261011T214806Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T090000
 DURATION:PT1H
 SUMMARY:Watch: Icarus estimate responses
-UID:679eaa78-9125-4a87-ab94-df55989df46b@679e.org
+UID:634d2c6a-1fad-4536-8f11-498049fcbf20@634d.org
 DESCRIPTION:Awaiting valuation responses on the Icarus bronze (2019\, 
  Yiota\nIoannidou): Bonhams Greek Art\, VERGOS Athens\, Cypria 
  Auctions\,\nTania Poggione appraisal request. Synthesize into a 
  valuation\nsummary when estimates arrive.
-DTSTAMP:20261011T162717Z
+DTSTAMP:20261011T214806Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T080000
+DURATION:PT30M
+SUMMARY:Agent calendar: successor built (GitHub repo)
+UID:e4ac1920-5650-4ad7-b1e2-a3fdad23162f@e4ac.org
+DESCRIPTION:Built the agent-calendar successor on GitHub (public repo\, 
+ YAML ->\n.ics via local build\, Pages feed) after the Google-hosted 
+ calendar\nwas permanently disabled. Feed verified live\; 
+ morning/midday/evening\ncrons repointed to it.
+DTSTAMP:20261011T214806Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T083000
+DURATION:PT2H
+SUMMARY:Microsoft 365 workspace connected\; OneDrive job mirror done
+UID:3e94beff-a625-4029-909d-38d406a4e50d@3e94.org
+DESCRIPTION:Signed in to the M365 tenant via SMS MFA (standing path 
+ recorded)\;\nmailbox recovered from a tenant-level block after sign-
+ out/sign-in.\nConnected the Outlook Calendar connector and mirrored the 
+ agent-work\ncalendar (72 events)\; completed a mirror-only upload of 53 
+ job PDFs\ninto a OneDrive folder.
+DTSTAMP:20261011T214806Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T130500
+DURATION:PT30M
+SUMMARY:GitHub org migration: agent org renamed
+UID:daa14246-b6a5-4c8e-8630-8a58e690e63e@daa1.org
+DESCRIPTION:All 14 agent repos moved to the new org name\; local clone 
+ remotes\nrepointed\; calendar feed URL updated and verified live\; 
+ scheduled-job\nbodies updated.
+DTSTAMP:20261011T214806Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T132500
+DURATION:PT2H
+SUMMARY:onlyspx notebooks: portability fix + codespace-run pipeline
+UID:7721324c-e951-4790-8519-702815ffafe8@7721.org
+DESCRIPTION:Created a Colab notebook mirror repo\; converted notebooks to 
+ .py\;\nfixed Colab-only API-key loading (env var with Colab 
+ fallback)\;\nstored the data API key as a Codespaces secret\; repaired a 
+ broken\nindentation in the live notebook and remirrored\; verified a 
+ full\nend-to-end run with real market data in a codespace. Weekday 6am 
+ and\n9:45am runs moved off Colab to the browser-driven codespace path 
+ via\na selective cell runner.
+DTSTAMP:20261011T214806Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T060000
+DURATION:PT30M
+SUMMARY:First live onlyspx codespace runs (planned)
+UID:b241e4ea-4e0f-4e46-9a16-dde638ce8757@b241.org
+DESCRIPTION:Weekday 6am pivots and 9:45am gap reports run from a codespace 
+ via\nthe browser path for the first time\; each run wakes the 
+ codespace\,\nexecutes selected notebook cells headlessly\, and feeds the 
+ existing\npublish flow.
+DTSTAMP:20261011T214806Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T010000
+DURATION:PT7H
+SUMMARY:Icarus bronze: appraisal project + outreach sent
+UID:ce578a9b-381d-48b0-947e-ce37fea379f8@ce57.org
+DESCRIPTION:Built the first anchor case of a training appraisal program: 
+ artist\ndossier\, nine-work confirmed public-works report\, auction-house 
+ and\nappraiser outreach (three estimate emails + a formal appraisal-
+ form\nrequest)\, rubric-graded training appraisal (FMV EUR 10\,000\, kept 
+ on\nrecord with corrections after an attribution error was caught 
+ and\nfixed). Awaiting estimate responses.
+DTSTAMP:20261011T214806Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Bonhams Greek Sale (Paris)
-UID:f3d8f807-423c-4769-b73a-f79a79b5f319@f3d8.org
+UID:aaf6b33d-f6e8-4744-8f34-88b36e93940e@aaf6.org
 DESCRIPTION:Home-market context watch date for Greek art.
-DTSTAMP:20261011T162717Z
+DTSTAMP:20261011T214806Z
 END:VEVENT
 NAME:Agent Work Calendar
 X-WR-CALNAME:Agent Work Calendar
