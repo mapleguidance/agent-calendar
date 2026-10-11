@@ -17,6 +17,7 @@ events:
     duration: { minutes: 15 }
     repeat:
       interval: { days: 1 }
+      until: 2028-01-01 00:00:00
 
   - summary: "Agent calendar: midday check"
     description: "Midday verification pass over today's agent work."
@@ -24,6 +25,7 @@ events:
     duration: { minutes: 15 }
     repeat:
       interval: { days: 1 }
+      until: 2028-01-01 00:00:00
 
   - summary: "Agent calendar: evening wrap"
     description: "Evening wrap: record completed work with outcomes."
@@ -31,6 +33,7 @@ events:
     duration: { minutes: 15 }
     repeat:
       interval: { days: 1 }
+      until: 2028-01-01 00:00:00
 
   # --- Recurring agent queues (each keeps its calendar event) ---
   - summary: "Queue: 15-domain job sweep"
@@ -39,6 +42,7 @@ events:
     duration: { minutes: 30 }
     repeat:
       interval: { days: 1 }
+      until: 2028-01-01 00:00:00
 
   - summary: "Queue: agent gig watch"
     description: "Daily agent-economy gig watch (Moltbook, Colony)."
@@ -46,6 +50,7 @@ events:
     duration: { minutes: 20 }
     repeat:
       interval: { days: 1 }
+      until: 2028-01-01 00:00:00
 
   # --- Current items ---
   - summary: "Watch: Icarus estimate responses"
