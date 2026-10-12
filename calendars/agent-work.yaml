@@ -101,12 +101,14 @@ events:
     begin: 2026-10-11 13:25:00
     duration: { hours: 2 }
 
-  - summary: "First live onlyspx codespace runs (planned)"
+  - summary: "First live onlyspx codespace runs — completed"
     description: |
-      Weekday 6am pivots and 9:45am gap reports run from a codespace via
-      the browser path for the first time; each run wakes the codespace,
-      executes selected notebook cells headlessly, and feeds the existing
-      publish flow.
+      Weekday 6am pivots and 9:45am gap reports ran from a codespace via
+      the browser path for the first time. The 6am run recovered after a
+      sign-in issue; the gap run succeeded on retry. Premarket and gap
+      posts were published across the text platforms, and image posts
+      were published on the photo and video platforms. Exact-format
+      premarket and gap publishing SOPs were locked in.
     begin: 2026-10-12 06:00:00
     duration: { minutes: 30 }
 
@@ -124,3 +126,82 @@ events:
   - summary: "Bonhams Greek Sale (Paris)"
     description: "Home-market context watch date for Greek art."
     begin: 2026-11-18
+
+  - summary: "Queue: GitHub org plan watch"
+    description: "Weekly check whether the former agent org's plan has upgraded; silent unless the migration trigger is met."
+    begin: 2026-10-12 09:47:00
+    duration: { minutes: 15 }
+    repeat:
+      interval: { days: 7 }
+      until: 2028-01-01 00:00:00
+
+  - summary: "onlyspx notebooks: stitching and run-output fixes"
+    description: |
+      Fixed the intraday-range history pull to use the point-in-time
+      front-month contract for each date (plain splice, no
+      back-adjustment), giving full sessions across the roll instead of
+      thin back-month bars. Also added the RTH open and volume print to
+      the run output so publishing is self-contained. Repo and live
+      notebook copies synced; the next scheduled run is the live proof.
+    begin: 2026-10-12 07:00:00
+    duration: { hours: 1 }
+
+  - summary: "MapleScholar: Search Console investigation and indexing run"
+    description: |
+      Morning investigation completed with no new Ads gaps; sessions and
+      Search Console state checked. Indexing run: five requests
+      submitted and accepted; one long-standing paper page is still not
+      indexed after repeated requests, and one chat URL failed
+      transiently again and is to be retried the next day.
+    begin: 2026-10-12 06:30:00
+    duration: { hours: 1 }
+
+  - summary: "Monday Top 10 Rotation review: no papers selected"
+    description: |
+      Weekly rotation review selected no papers for the third
+      consecutive week, with all candidates rejected on page-health
+      grounds. A spot check suggests the health check uses stale data.
+      The notification email could not be sent because the agent mailbox
+      is disabled. Decision needed: fix the health check or suspend the
+      review while the rotation campaigns remain paused. Nothing was
+      applied to Ads.
+    begin: 2026-10-12 07:15:00
+    duration: { minutes: 30 }
+
+  - summary: "Job search: three perfect-fit applications staged, one submitted"
+    description: |
+      The daily sweep plus a further verified fit produced three
+      perfect-fit roles. Tailored materials were built or verified for
+      all three and the application forms were filled and reviewed.
+      One application was submitted and later confirmed in the
+      candidate portal; the other two are complete or near-complete and
+      staged for the user's own review and submission, not submitted.
+      Reusable screening answers and a post-submission checklist were
+      recorded for future applications.
+    begin: 2026-10-12 08:47:00
+    duration: { hours: 3 }
+
+  - summary: "GitHub org migration plan drafted; plan watch created"
+    description: |
+      Verified the nonprofit Teams benefit is active on the current
+      agent org. Drafted a migration plan for a possible future move to
+      the former org name, to be executed only if that org's plan
+      upgrades and the user explicitly approves. Created a weekly plan
+      watch; its first check found the plan not yet upgraded.
+    begin: 2026-10-12 08:33:00
+    duration: { minutes: 30 }
+
+  - summary: "Icarus appraisal replies: two received, two awaited"
+    description: |
+      Replies watch found two responses: one auction house declined to
+      include the work in its sales and suggested another market, and
+      one acknowledged the request and is reviewing it with its team.
+      No estimate has been received yet. Two other parties have not yet
+      replied; the watch continues.
+    begin: 2026-10-12 17:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Job application follow-up due"
+    description: "Seven-day follow-up for the job application submitted on 2026-10-12."
+    begin: 2026-10-19 09:00:00
+    duration: { minutes: 30 }
