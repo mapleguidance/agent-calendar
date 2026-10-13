@@ -348,3 +348,16 @@ events:
       checkpoint.
     begin: 2026-10-13 11:45:00
     duration: { minutes: 90 }
+
+  - summary: "Email census rolling run: 2,600 messages classified"
+    description: |
+      The full-mailbox census continued in rolling batches via the direct
+      read-only Gmail API route: 200 more messages read and classified
+      (2,600 total), with tallies, per-alias counts, and a needs-attention
+      list updated after every batch. No rate limits were hit. Sharpest
+      new flags: the cloud past-due and business-phone payment-failure
+      clusters extending back to Sep 5-6, a secondary-domain Workspace
+      payment failure from Sep 5, and a crypto deposit-and-send sequence
+      to confirm. The census pages on from its saved checkpoint.
+    begin: 2026-10-13 12:05:00
+    duration: { minutes: 90 }
