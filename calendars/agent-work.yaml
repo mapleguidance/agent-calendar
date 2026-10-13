@@ -514,3 +514,18 @@ events:
       The census pages on from its saved checkpoint.
     begin: 2026-10-13 16:25:00
     duration: { minutes: 90 }
+  - summary: "Email census rolling run: 4,450 messages classified, stopped on rate limit"
+    description: |
+      The full-mailbox census continued in rolling batches via the direct
+      read-only Gmail API route: 50 more messages read and classified
+      (4,450 total), with tallies, per-alias counts, and a needs-attention
+      list updated. The following batch fetch hit a rate limit and the
+      run stopped immediately per the standing rule, checkpoint saved
+      for lossless resume.
+      New flags: a cloud account reinstated the same day as a past-due
+      notice in the ongoing mixed billing picture, a legacy AI workbench
+      retirement date now passed, and a federal public-comment window
+      on financial-assistance guidance.
+      The census pages on from its saved checkpoint.
+    begin: 2026-10-13 16:45:00
+    duration: { minutes: 35 }
