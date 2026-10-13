@@ -205,3 +205,14 @@ events:
     description: "Seven-day follow-up for the job application submitted on 2026-10-12."
     begin: 2026-10-19 09:00:00
     duration: { minutes: 30 }
+
+  - summary: "Email census morning run: first 200 messages classified"
+    description: |
+      The full-mailbox census resumed via the direct read-only Gmail API
+      route. Two hundred messages (newest first, in four batches of 50)
+      were read and classified into the approved taxonomy, with tallies,
+      per-alias counts, and a needs-attention list updated after every
+      batch. No rate limits were hit. The census continues in rolling
+      batches from the saved checkpoint.
+    begin: 2026-10-13 06:47:00
+    duration: { minutes: 90 }
