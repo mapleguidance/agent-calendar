@@ -26,97 +26,97 @@ BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T074700
 DURATION:PT15M
 SUMMARY:Agent calendar: morning brief
-UID:30b32408-fd48-46c1-96b6-d62ef88511ca@30b3.org
+UID:78eca388-f204-4ab3-ad6b-bbf3ae0085e8@78ec.org
 DESCRIPTION:Review today's planned agent work\; verify overnight run 
  results.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T124700
 DURATION:PT15M
 SUMMARY:Agent calendar: midday check
-UID:1a80da67-e68b-4e0a-afc9-ca35fc78df54@1a80.org
+UID:667b0656-ff5f-44c0-b99d-8232da63baaf@667b.org
 DESCRIPTION:Midday verification pass over today's agent work.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T174700
 DURATION:PT15M
 SUMMARY:Agent calendar: evening wrap
-UID:79065f9c-0c7c-407b-9cfe-166f1ae7cb48@7906.org
+UID:2efc65e0-a619-4824-b8dd-397f8d588d08@2efc.org
 DESCRIPTION:Evening wrap: record completed work with outcomes.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T084700
 DURATION:PT30M
 SUMMARY:Queue: 15-domain job sweep
-UID:000e8e0f-f9f4-41ca-b2ae-c0b287fa0899@000e.org
+UID:e98a2ee5-9efa-4141-a9dd-32bbff086762@e98a.org
 DESCRIPTION:Daily perfect-fit job sweep. Silent on quiet days.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T104700
 DURATION:PT20M
 SUMMARY:Queue: agent gig watch
-UID:1ab8a9df-c5dc-4ef1-92dd-23ef21268154@1ab8.org
+UID:9bfe117c-77f7-42a5-94f5-54b1f92e6784@9bfe.org
 DESCRIPTION:Daily agent-economy gig watch (Moltbook\, Colony).
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 RRULE:FREQ=DAILY;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T090000
 DURATION:PT1H
 SUMMARY:Watch: Icarus estimate responses
-UID:efd2c61e-b785-45bf-84a8-87a4de2d4320@efd2.org
+UID:5165229d-23a1-44a5-a5f9-da2eb0354cef@5165.org
 DESCRIPTION:Awaiting valuation responses on the Icarus bronze (2019\, 
  Yiota\nIoannidou): Bonhams Greek Art\, VERGOS Athens\, Cypria 
  Auctions\,\nTania Poggione appraisal request. Synthesize into a 
  valuation\nsummary when estimates arrive.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T080000
 DURATION:PT30M
 SUMMARY:Agent calendar: successor built (GitHub repo)
-UID:b5453ccd-9c68-46f3-bbe5-e0e8245912b5@b545.org
+UID:10866b87-e4f6-4f8c-9d4a-edbb1018dba0@1086.org
 DESCRIPTION:Built the agent-calendar successor on GitHub (public repo\, 
  YAML ->\n.ics via local build\, Pages feed) after the Google-hosted 
  calendar\nwas permanently disabled. Feed verified live\; 
  morning/midday/evening\ncrons repointed to it.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T083000
 DURATION:PT2H
 SUMMARY:Microsoft 365 workspace connected\; OneDrive job mirror done
-UID:093fc57b-5c72-4989-ad36-b7e5336fdf9c@093f.org
+UID:1ccad607-d370-464b-bd90-74f56c1a6f60@1cca.org
 DESCRIPTION:Signed in to the M365 tenant via SMS MFA (standing path 
  recorded)\;\nmailbox recovered from a tenant-level block after sign-
  out/sign-in.\nConnected the Outlook Calendar connector and mirrored the 
  agent-work\ncalendar (72 events)\; completed a mirror-only upload of 53 
  job PDFs\ninto a OneDrive folder.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T130500
 DURATION:PT30M
 SUMMARY:GitHub org migration: agent org renamed
-UID:eb9f6297-aa15-4332-9966-709a2076c0a1@eb9f.org
+UID:c86bdd7c-ba52-4e4d-9ff0-62a1a82e372a@c86b.org
 DESCRIPTION:All 14 agent repos moved to the new org name\; local clone 
  remotes\nrepointed\; calendar feed URL updated and verified live\; 
  scheduled-job\nbodies updated.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T132500
 DURATION:PT2H
 SUMMARY:onlyspx notebooks: portability fix + codespace-run pipeline
-UID:26fb2a75-8115-483f-8f00-12670388c9d3@26fb.org
+UID:694f1818-1db2-4f5f-b21d-7316930d1c8e@694f.org
 DESCRIPTION:Created a Colab notebook mirror repo\; converted notebooks to 
  .py\;\nfixed Colab-only API-key loading (env var with Colab 
  fallback)\;\nstored the data API key as a Codespaces secret\; repaired a 
@@ -124,82 +124,82 @@ DESCRIPTION:Created a Colab notebook mirror repo\; converted notebooks to
  full\nend-to-end run with real market data in a codespace. Weekday 6am 
  and\n9:45am runs moved off Colab to the browser-driven codespace path 
  via\na selective cell runner.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T060000
 DURATION:PT30M
 SUMMARY:First live onlyspx codespace runs — completed
-UID:8176cac6-1889-46d2-bb53-856ede25ea37@8176.org
+UID:abd5afc8-40be-4446-a42e-00a60f102a61@abd5.org
 DESCRIPTION:Weekday 6am pivots and 9:45am gap reports ran from a codespace 
  via\nthe browser path for the first time. The 6am run recovered after 
  a\nsign-in issue\; the gap run succeeded on retry. Premarket and 
  gap\nposts were published across the text platforms\, and image 
  posts\nwere published on the photo and video platforms. Exact-
  format\npremarket and gap publishing SOPs were locked in.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261011T010000
 DURATION:PT7H
 SUMMARY:Icarus bronze: appraisal project + outreach sent
-UID:5abc0cac-b68a-4439-b03d-0c6e81aa4a66@5abc.org
+UID:d639c2fc-5d62-48f1-96ba-107b0d9e987b@d639.org
 DESCRIPTION:Built the first anchor case of a training appraisal program: 
  artist\ndossier\, nine-work confirmed public-works report\, auction-house 
  and\nappraiser outreach (three estimate emails + a formal appraisal-
  form\nrequest)\, rubric-graded training appraisal (FMV EUR 10\,000\, kept 
  on\nrecord with corrections after an attribution error was caught 
  and\nfixed). Awaiting estimate responses.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Bonhams Greek Sale (Paris)
-UID:2a484528-c19e-4f1d-b87f-aa66a3c4fd60@2a48.org
+UID:bbad80f8-d277-4ea7-b3cc-86db609e7c9b@bbad.org
 DESCRIPTION:Home-market context watch date for Greek art.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T094700
 DURATION:PT15M
 SUMMARY:Queue: GitHub org plan watch
-UID:08c58396-5d83-4045-827f-797dc6996955@08c5.org
+UID:82444a5a-a3fc-4cb6-94e9-eeff28035ea3@8244.org
 DESCRIPTION:Weekly check whether the former agent org's plan has upgraded\;
   silent unless the migration trigger is met.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 RRULE:FREQ=DAILY;INTERVAL=7;UNTIL=20280101T000000
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T070000
 DURATION:PT1H
 SUMMARY:onlyspx notebooks: stitching and run-output fixes
-UID:e23e8e0d-0530-4e5e-aef4-00b83f0676da@e23e.org
+UID:ad378b6d-4dc3-4d62-abb8-ab7d49ec0386@ad37.org
 DESCRIPTION:Fixed the intraday-range history pull to use the point-in-
  time\nfront-month contract for each date (plain splice\, no\nback-
  adjustment)\, giving full sessions across the roll instead of\nthin back-
  month bars. Also added the RTH open and volume print to\nthe run output so
   publishing is self-contained. Repo and live\nnotebook copies synced\; the
   next scheduled run is the live proof.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T063000
 DURATION:PT1H
 SUMMARY:MapleScholar: Search Console investigation and indexing run
-UID:564b6864-b774-4a47-9f33-a05e0dba1ac4@564b.org
+UID:6587e153-7697-4ac1-8c50-4c2cedf608da@6587.org
 DESCRIPTION:Morning investigation completed with no new Ads gaps\; sessions
   and\nSearch Console state checked. Indexing run: five requests\nsubmitted
   and accepted\; one long-standing paper page is still not\nindexed after 
  repeated requests\, and one chat URL failed\ntransiently again and is to 
  be retried the next day.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T071500
 DURATION:PT30M
 SUMMARY:Monday Top 10 Rotation review: no papers selected
-UID:4a466213-1c9d-49de-a736-11dab4692d68@4a46.org
+UID:189bc532-d411-408c-9b62-775615306327@189b.org
 DESCRIPTION:Weekly rotation review selected no papers for the 
  third\nconsecutive week\, with all candidates rejected on page-
  health\ngrounds. A spot check suggests the health check uses stale 
@@ -207,13 +207,13 @@ DESCRIPTION:Weekly rotation review selected no papers for the
  mailbox\nis disabled. Decision needed: fix the health check or suspend 
  the\nreview while the rotation campaigns remain paused. Nothing 
  was\napplied to Ads.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T084700
 DURATION:PT3H
 SUMMARY:Job search: three perfect-fit applications staged\, one submitted
-UID:b77382d2-2622-4839-967c-14228fd5862e@b773.org
+UID:ff6bb1dd-1615-4ba7-9471-312191eb87bc@ff6b.org
 DESCRIPTION:The daily sweep plus a further verified fit produced 
  three\nperfect-fit roles. Tailored materials were built or verified 
  for\nall three and the application forms were filled and reviewed.\nOne 
@@ -221,60 +221,60 @@ DESCRIPTION:The daily sweep plus a further verified fit produced
  the other two are complete or near-complete and\nstaged for the user's own
   review and submission\, not submitted.\nReusable screening answers and a 
  post-submission checklist were\nrecorded for future applications.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T083300
 DURATION:PT30M
 SUMMARY:GitHub org migration plan drafted\; plan watch created
-UID:e8d06c77-d818-494b-8ba0-8b385a0e7134@e8d0.org
+UID:5d0d016d-af88-4b6e-9ca3-ec3cf59ca6e9@5d0d.org
 DESCRIPTION:Verified the nonprofit Teams benefit is active on the 
  current\nagent org. Drafted a migration plan for a possible future move 
  to\nthe former org name\, to be executed only if that org's plan\nupgrades
   and the user explicitly approves. Created a weekly plan\nwatch\; its 
  first check found the plan not yet upgraded.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261012T170000
 DURATION:PT30M
 SUMMARY:Icarus appraisal replies: two received\, two awaited
-UID:1766abdc-5f92-4cd8-a83f-94699892c3de@1766.org
+UID:7e8ed9fc-7812-4063-b97e-7f23b0989caa@7e8e.org
 DESCRIPTION:Replies watch found two responses: one auction house declined 
  to\ninclude the work in its sales and suggested another market\, and\none 
  acknowledged the request and is reviewing it with its team.\nNo estimate 
  has been received yet. Two other parties have not yet\nreplied\; the watch
   continues.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261019T090000
 DURATION:PT30M
 SUMMARY:Job application follow-up due
-UID:9988bda1-43b4-4014-b469-b440b51f5744@9988.org
+UID:c1965454-5f78-4103-9350-0b0655bf6abf@c196.org
 DESCRIPTION:Seven-day follow-up for the job application submitted on 
  2026-10-12.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T064700
 DURATION:PT1H30M
 SUMMARY:Email census morning run: first 200 messages classified
-UID:2db15b2e-28bf-4070-a314-631010722133@2db1.org
+UID:0350d6c8-6956-4d3c-afef-5a0048567fa8@0350.org
 DESCRIPTION:The full-mailbox census resumed via the direct read-only Gmail 
  API\nroute. Two hundred messages (newest first\, in four batches of 
  50)\nwere read and classified into the approved taxonomy\, with 
  tallies\,\nper-alias counts\, and a needs-attention list updated after 
  every\nbatch. No rate limits were hit. The census continues in 
  rolling\nbatches from the saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T072400
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 400 messages classified\, totals anomaly 
  settled
-UID:901cde40-7d85-44cb-b6bc-77f173f0a7d8@901c.org
+UID:b50f07f2-5e6a-4290-b294-c84364f6819a@b50f.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(400 total)\, with tallies\, per-alias counts\, and a needs-
@@ -282,13 +282,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  verification settled the mailbox totals discrepancy: the current\nprofile 
  total is about 96\,744 messages\, and the census pages on\nfrom its saved 
  checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T074500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 600 messages classified
-UID:8a8da5d1-8559-4f19-afac-f0f744726413@8a8d.org
+UID:14c57234-bc3a-473c-8397-1be3ed81af2d@14c5.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(600 total)\, with tallies\, per-alias counts\, and a needs-
@@ -297,13 +297,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  account\,\nan OpenAI API balance down to $3\, and a Google Workspace 
  payment\nfailure on a secondary domain. The census pages on from its 
  saved\ncheckpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T080500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 800 messages classified
-UID:808ec7a6-42aa-47c7-b235-3403d9b09b0a@808e.org
+UID:06a0a834-aea6-4d99-9ef6-b3f93cb13bfa@06a0.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(800 total)\, with tallies\, per-alias counts\, and a needs-
@@ -312,13 +312,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
   a\nGoogle Workspace payment failure on the main domain\, and a 
  second\npast-due AWS account. The census pages on from its 
  saved\ncheckpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T082500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 1\,000 messages classified
-UID:96ce6d69-a9a5-4ea9-b5a5-80b51d0a372c@96ce.org
+UID:f8480a8a-a16a-45c9-9144-160c541abd41@f848.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(1\,000 total)\, with tallies\, per-alias counts\, and a 
@@ -327,13 +327,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  (outcome\nstill unconfirmed)\, the main-domain Workspace payment 
  failure\ntracing back a full week\, and a cluster of ad disapprovals. 
  The\ncensus pages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T092500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 1\,400 messages classified
-UID:22834f12-f0f9-4574-98f0-cf65185a5557@2283.org
+UID:261d5d20-1ceb-4d5c-a1e0-844377bd13fa@261d.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(1\,400 total)\, with tallies\, per-alias counts\, and a 
@@ -342,13 +342,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  code\nrepository\, eight office-payment decline notices from one 
  card\nfailure\, and a three-day OpenAI account event cluster ending in 
  a\ndisabled API key. The census pages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T094500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 1\,600 messages classified
-UID:860c48fe-f924-48e1-98a5-b3d757874c59@860c.org
+UID:82587818-19f0-494f-ad46-c9d0b0c77a2e@8258.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(1\,600 total)\, with tallies\, per-alias counts\, and a 
@@ -358,13 +358,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  nonprofit\,\na Workspace admin security notice\, and an insufficient-funds
   notice\nextending the payment-decline cluster. The census pages on 
  from\nits saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T100500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 1\,800 messages classified
-UID:724423fd-e3cd-48ee-b24c-8be4e0566279@7244.org
+UID:ac9763e1-5ef4-4212-a168-49e1c07e3bcd@ac97.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(1\,800 total)\, with tallies\, per-alias counts\, and a 
@@ -374,13 +374,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  18\nacross office\, phone\, and subscription payments\, and a bank\ndata-
  sharing consent notice to verify. The census pages on from\nits saved 
  checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T110500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 2\,000 messages classified
-UID:8bb744cc-fec9-4636-9114-ab182fb7ad6c@8bb7.org
+UID:7984bddb-4733-4d8a-92f7-8d5d099e8b60@7984.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(2\,000 total)\, with tallies\, per-alias counts\, and a 
@@ -389,13 +389,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  attention\,\na federal API-key rotation final reminder\, and the 
  September\npayment-failure cluster extending back to Sep 15. The 
  census\npages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T112500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 2\,200 messages classified
-UID:83d48d28-2c65-4c1e-990e-3010bf990bd6@83d4.org
+UID:83791922-a725-4dc2-b0ec-893b4b1e1864@8379.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(2\,200 total)\, with tallies\, per-alias counts\, and a 
@@ -404,13 +404,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  office\nprovider\, a failed business-insurance premium payment just 
  before\nits renewal posted\, and a grant window closing Oct 5. The 
  census\npages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T114500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 2\,400 messages classified
-UID:c5f48f07-116a-4a15-802a-0108638b2135@c5f4.org
+UID:e3d00454-6cd6-4ec4-8184-490e874d4ae1@e3d0.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(2\,400 total)\, with tallies\, per-alias counts\, and a 
@@ -420,13 +420,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  legal\nconsent about lawyers of record\, and bank insufficient-
  funds\nalerts on consecutive days. The census pages on from its 
  saved\ncheckpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T120500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 2\,600 messages classified
-UID:0b31637a-927c-456f-bb2d-7eafef4de7db@0b31.org
+UID:c704c852-ace5-4576-a545-0ea4d4a02089@c704.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(2\,600 total)\, with tallies\, per-alias counts\, and a 
@@ -435,13 +435,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  failure\nclusters extending back to Sep 5-6\, a secondary-domain 
  Workspace\npayment failure from Sep 5\, and a crypto deposit-and-send 
  sequence\nto confirm. The census pages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T122500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 2\,800 messages classified
-UID:df1db43a-0d0a-41bf-a8db-0dfb59745bab@df1d.org
+UID:f4d6d651-ff40-4cba-9ec6-664b2ca2c961@f4d6.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(2\,800 total)\, with tallies\, per-alias counts\, and a 
@@ -452,13 +452,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  (a PayPal closure warning and a Celsius funds-release\nclaim) flagged for 
  verification through official channels only.\nThe census pages on from its
   saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T130500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 3\,000 messages classified
-UID:50c1d34f-6e4f-4894-bad1-d98a0f98b10c@50c1.org
+UID:28468a16-4735-41ba-a473-f0893ecd5b4d@2846.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(3\,000 total)\, with tallies\, per-alias counts\, and a 
@@ -468,13 +468,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  third-party OAuth app authorized on the code-hosting account\,\nand a 
  grant call closely matching the nonprofit's governance work.\nThe census 
  pages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T132500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 3\,200 messages classified
-UID:26a55cfb-a9e5-4dad-98b6-80a41c73fbc6@26a5.org
+UID:c5329bf8-6071-4f5c-bc24-f179bc1af927@c532.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(3\,200 total)\, with tallies\, per-alias counts\, and a 
@@ -484,13 +484,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  whose\nsuspension date has passed\, a debit card declined three times 
  in\none evening\, and a cloud runtime end-of-support notice.\nThe census 
  pages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T134500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 3\,400 messages classified
-UID:21c62056-e729-466e-981f-d4be4a436cb8@21c6.org
+UID:f45bf2dc-935a-4bb3-85a4-a02bc1ba75f7@f45b.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(3\,400 total)\, with tallies\, per-alias counts\, and a 
@@ -501,13 +501,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  platform\nonboarding requiring identity verification\, and two more\nnew-
  device sign-in notices in the late-August cluster.\nThe census pages on 
  from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T142500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 3\,600 messages classified
-UID:32fb2350-6a78-468c-a1df-5c244706d0c4@32fb.org
+UID:72fc707e-f7ba-463f-bdfa-01a8601b2a0f@72fc.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(3\,600 total)\, with tallies\, per-alias counts\, and a 
@@ -518,13 +518,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  storage\ndeletion-warning series fully dated\, and another third-
  party\nOAuth authorization on a code account.\nThe census pages on from 
  its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T144500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: stopped on rate limit at 3\,600 messages
-UID:03a3b95a-06ea-47fa-a162-2a96bd660d93@03a3.org
+UID:3a29bedf-9a9a-435b-af39-b7643f38ce22@3a29.org
 DESCRIPTION:The full-mailbox census rolling run resumed from its 
  saved\ncheckpoint via the direct read-only Gmail API route\, but 
  Google\nreturned a rate-limit response partway through the first 
@@ -534,13 +534,13 @@ DESCRIPTION:The full-mailbox census rolling run resumed from its
   the next run re-fetches the batch losslessly.\nRunning total remains 
  3\,600 messages classified.\nThe census pages on from its saved 
  checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T150500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: stopped on rate limit at 3\,600 messages
-UID:b0a62d3e-d100-4ebf-b0ea-4ea5d5364df6@b0a6.org
+UID:175039f2-987a-4713-8f36-f4700fa4b556@1750.org
 DESCRIPTION:The full-mailbox census rolling run resumed from its 
  saved\ncheckpoint via the direct read-only Gmail API route. The 
  run\nwaited past the previous rate-limit retry-after time 
@@ -551,13 +551,13 @@ DESCRIPTION:The full-mailbox census rolling run resumed from its
   the next run\nre-fetches the batch losslessly.\nRunning total remains 
  3\,600 messages classified.\nThe census pages on from its saved 
  checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T152500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 3\,800 messages classified
-UID:f6ec7a75-7c9e-4082-8552-77e8c5c05916@f6ec.org
+UID:b81e962a-678d-4595-b1ed-51e77bb24007@b81e.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(3\,800 total)\, with tallies\, per-alias counts\, and a 
@@ -569,13 +569,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  recruiting approaches to team members\, and two more\nthird-party OAuth 
  authorizations on a code account.\nThe census pages on from its saved 
  checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T154500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 4\,000 messages classified
-UID:dc12944e-f93d-42b4-b9a9-2c68279b8fd1@dc12.org
+UID:4e7d7ffb-f9f6-49ae-b4ca-8ee9beb55ab9@4e7d.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(4\,000 total)\, with tallies\, per-alias counts\, and a 
@@ -586,13 +586,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  two\nclosed job applications dated Aug 18\, and an active 
  corporate\nbanking appointment thread.\nThe census pages on from its saved
   checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T160500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 4\,200 messages classified
-UID:8bd42196-67a0-469b-9e54-75de1fbd4852@8bd4.org
+UID:660855a5-f7e1-4674-a968-a3c87731f553@6608.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(4\,200 total)\, with tallies\, per-alias counts\, and a 
@@ -603,13 +603,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  dated Aug 17\, and unanswered service-marketplace\nrequests stacking up 
  across three service lines.\nThe census pages on from its saved 
  checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T162500
 DURATION:PT1H30M
 SUMMARY:Email census rolling run: 4\,400 messages classified
-UID:bb510cb9-f67c-4305-8016-00e4ad04318e@bb51.org
+UID:a1b72b6f-fbb9-4c8a-a04b-b66d194526f6@a1b7.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 200 more messages read and 
  classified\n(4\,400 total)\, with tallies\, per-alias counts\, and a 
@@ -619,14 +619,14 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
   API\naccess turned off the same day\, the payment-failure window 
  now\nopening Aug 12\, and two conflicting deposit notices for the 
  same\ncorporate payment.\nThe census pages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T164500
 DURATION:PT35M
 SUMMARY:Email census rolling run: 4\,450 messages classified\, stopped on 
  rate limit
-UID:9325e579-7696-49a1-94b2-e9e87ca8506a@9325.org
+UID:f90874f5-a577-4928-ba5c-1f178232c404@f908.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 50 more messages read and 
  classified\n(4\,450 total)\, with tallies\, per-alias counts\, and a 
@@ -637,13 +637,13 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
  legacy AI workbench\nretirement date now passed\, and a federal public-
  comment window\non financial-assistance guidance.\nThe census pages on 
  from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T170500
 DURATION:PT45M
 SUMMARY:Email census rolling run: 4\,600 messages classified
-UID:6db953cc-5f7e-456a-8062-64f5dd835c93@6db9.org
+UID:fc2b09d3-fccb-4a06-ba51-744f47f436f9@fc2b.org
 DESCRIPTION:The full-mailbox census continued in rolling batches via the 
  direct\nread-only Gmail API route: 150 more messages read and 
  classified\n(4\,600 total)\, with tallies\, per-alias counts\, and a 
@@ -655,7 +655,103 @@ DESCRIPTION:The full-mailbox census continued in rolling batches via the
   now\nopens Aug 8\, a cloud-storage-full notice now dates to Aug 8\, 
  and\nunanswered service-marketplace requests span Aug 8-24 across 
  five\nservice lines.\nThe census pages on from its saved checkpoint.
-DTSTAMP:20261013T214340Z
+DTSTAMP:20261013T214921Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T060000
+DURATION:PT45M
+SUMMARY:onlyspx 6am pivots and premarket posts: completed on rerun
+UID:4b4be83a-038a-47b7-817d-c2557c05aacc@4b4b.org
+DESCRIPTION:The scheduled 6am pivots run walled at a sign-in step-up in 
+ the\ncodespace browser session\; a manual rerun shortly after loaded\nwith
+  no challenge and produced the day's pivot\, volatility\, and\nrange 
+ values. The composed premarket post in the locked format\nwas published 
+ and verified live as text on the three text\nchannels and as an image on 
+ the photo and video channels\,\ncompleting the full premarket set. A retry
+  ladder for session\nwalls was built into the job.
+DTSTAMP:20261013T214921Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T063700
+DURATION:PT45M
+SUMMARY:Exit-interview system built on GitHub
+UID:fc064868-1cd2-4b91-a1fe-0bccc34718dd@fc06.org
+DESCRIPTION:A standing rule was established that every piece of agent 
+ work\,\nscheduled or interactive\, ends with a structured exit 
+ interview\ncovering steps taken\, retries\, access\, the user's concerns\,
+  and\nresolution. A dedicated GitHub repository was created as 
+ the\ncanonical store\, the first reports were written and pushed\, and\na 
+ read-before rule was wired in so each recurring run reads the\nprevious 
+ run's interview first. The steps-taken section was\nadded the same morning
+  and the day's earlier reports were\nbackfilled to match.
+DTSTAMP:20261013T214921Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T063000
+DURATION:PT30M
+SUMMARY:MapleScholar morning investigation: Analytics day
+UID:ee88465c-c5f8-4913-bfe8-5cd67c655aff@ee88.org
+DESCRIPTION:Read-only investigation completed. Analytics showed 
+ conversions\nscaling across several firing key events\, with a top 
+ paper\nholding its lead. Flags: a not-found page appearing among the\ntop 
+ pages\, a share of users with no country recorded\, and a\nsmall 
+ unassigned-traffic segment. Ads email and in-product\nchecks showed no new
+  policy gaps\; a long-standing Search\nConsole validation item remains 
+ pending. Nothing was applied\nanywhere.
+DTSTAMP:20261013T214921Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T110000
+DURATION:PT30M
+SUMMARY:MapleScholar Search Console indexing run
+UID:9ca05e1e-7b64-405d-81e3-c66ea39acc69@9ca0.org
+DESCRIPTION:Indexing run completed on the verified property: five 
+ requests\nsubmitted and accepted\, including one long-standing paper 
+ page\nthat is still not indexed after repeated requests. One chat\nURL 
+ failed transiently again and is to be retried. Owner-excluded\nURLs were 
+ skipped and the usage quota was not hit.
+DTSTAMP:20261013T214921Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T094500
+DURATION:PT2H
+SUMMARY:onlyspx gap: rerun completed\, new 5-day status section\, posts 
+ published
+UID:8639a5d4-b8bd-4170-b75c-b0e55343f184@8639.org
+DESCRIPTION:The scheduled market-open gap run was blocked on a sign-in 
+ wall\nafter its retry ladder\; a manual rerun later passed with 
+ no\nchallenge and produced the day's gap result. At the user's\ndirection 
+ a new 5-Day Gap Status section was designed\, approved\,\nand implemented 
+ in a dedicated script pushed to the notebook\nmirror repo\, judging each 
+ of the last five trading days' gaps\nas still open or filled. The gap post
+  with the new section was\npublished and verified on the three text 
+ channels\, and the\ngap graphic was later posted to the image channels\, 
+ with a\ncorrection note on one channel where the graphic predated a\nsame-
+ day status change.
+DTSTAMP:20261013T214921Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261013T170000
+DURATION:PT30M
+SUMMARY:Icarus appraisal replies watch: no new replies
+UID:d02df75d-03cb-4dec-b158-02a456c75e42@d02d.org
+DESCRIPTION:The replies watch was run late after being flagged at 
+ midday.\nA live check found no new replies: one auction house 
+ has\ndeclined\, one is still reviewing with its team\, and two 
+ other\nparties remain silent. No estimate has been received yet and\nthe 
+ watch continues.
+DTSTAMP:20261013T214921Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=/ics.py/2020.1/America/Toronto:20261021T195900
+DURATION:PT30M
+SUMMARY:Humanity AI Phase 1 application due
+UID:08a0b600-b970-4863-acfa-f6c5771ed4b8@08a0.org
+DESCRIPTION:Partner-outreach drafts for this grant application are 
+ finished\nand ready but unsent\, pending the user's approval\; no 
+ partners\nare named in the outline yet\, which is the weakest 
+ scoring\narea. Filing is targeted for Oct 19-20 ahead of this deadline.
+DTSTAMP:20261013T214921Z
 END:VEVENT
 NAME:Agent Work Calendar
 X-WR-CALNAME:Agent Work Calendar
