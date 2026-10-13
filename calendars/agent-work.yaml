@@ -280,3 +280,17 @@ events:
       disabled API key. The census pages on from its saved checkpoint.
     begin: 2026-10-13 09:25:00
     duration: { minutes: 90 }
+
+  - summary: "Email census rolling run: 1,600 messages classified"
+    description: |
+      The full-mailbox census continued in rolling batches via the direct
+      read-only Gmail API route: 200 more messages read and classified
+      (1,600 total), with tallies, per-alias counts, and a needs-attention
+      list updated after every batch. No rate limits were hit. Sharpest
+      new flags: a $1,500 grant deadline that closed during the period
+      covered, a corrected-link grant lead for the research nonprofit,
+      a Workspace admin security notice, and an insufficient-funds notice
+      extending the payment-decline cluster. The census pages on from
+      its saved checkpoint.
+    begin: 2026-10-13 09:45:00
+    duration: { minutes: 90 }
