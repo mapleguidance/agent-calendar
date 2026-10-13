@@ -216,3 +216,15 @@ events:
       batches from the saved checkpoint.
     begin: 2026-10-13 06:47:00
     duration: { minutes: 90 }
+
+  - summary: "Email census rolling run: 400 messages classified, totals anomaly settled"
+    description: |
+      The full-mailbox census continued in rolling batches via the direct
+      read-only Gmail API route: 200 more messages read and classified
+      (400 total), with tallies, per-alias counts, and a needs-attention
+      list updated after every batch. No rate limits were hit. A
+      re-verification settled the mailbox totals discrepancy: the current
+      profile total is about 96,744 messages, and the census pages on
+      from its saved checkpoint.
+    begin: 2026-10-13 07:24:00
+    duration: { minutes: 90 }
