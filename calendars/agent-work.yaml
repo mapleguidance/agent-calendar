@@ -546,3 +546,81 @@ events:
       The census pages on from its saved checkpoint.
     begin: 2026-10-13 17:05:00
     duration: { minutes: 45 }
+  - summary: "onlyspx 6am pivots and premarket posts: completed on rerun"
+    description: |
+      The scheduled 6am pivots run walled at a sign-in step-up in the
+      codespace browser session; a manual rerun shortly after loaded
+      with no challenge and produced the day's pivot, volatility, and
+      range values. The composed premarket post in the locked format
+      was published and verified live as text on the three text
+      channels and as an image on the photo and video channels,
+      completing the full premarket set. A retry ladder for session
+      walls was built into the job.
+    begin: 2026-10-13 06:00:00
+    duration: { minutes: 45 }
+  - summary: "Exit-interview system built on GitHub"
+    description: |
+      A standing rule was established that every piece of agent work,
+      scheduled or interactive, ends with a structured exit interview
+      covering steps taken, retries, access, the user's concerns, and
+      resolution. A dedicated GitHub repository was created as the
+      canonical store, the first reports were written and pushed, and
+      a read-before rule was wired in so each recurring run reads the
+      previous run's interview first. The steps-taken section was
+      added the same morning and the day's earlier reports were
+      backfilled to match.
+    begin: 2026-10-13 06:37:00
+    duration: { minutes: 45 }
+  - summary: "MapleScholar morning investigation: Analytics day"
+    description: |
+      Read-only investigation completed. Analytics showed conversions
+      scaling across several firing key events, with a top paper
+      holding its lead. Flags: a not-found page appearing among the
+      top pages, a share of users with no country recorded, and a
+      small unassigned-traffic segment. Ads email and in-product
+      checks showed no new policy gaps; a long-standing Search
+      Console validation item remains pending. Nothing was applied
+      anywhere.
+    begin: 2026-10-13 06:30:00
+    duration: { minutes: 30 }
+  - summary: "MapleScholar Search Console indexing run"
+    description: |
+      Indexing run completed on the verified property: five requests
+      submitted and accepted, including one long-standing paper page
+      that is still not indexed after repeated requests. One chat
+      URL failed transiently again and is to be retried. Owner-excluded
+      URLs were skipped and the usage quota was not hit.
+    begin: 2026-10-13 11:00:00
+    duration: { minutes: 30 }
+  - summary: "onlyspx gap: rerun completed, new 5-day status section, posts published"
+    description: |
+      The scheduled market-open gap run was blocked on a sign-in wall
+      after its retry ladder; a manual rerun later passed with no
+      challenge and produced the day's gap result. At the user's
+      direction a new 5-Day Gap Status section was designed, approved,
+      and implemented in a dedicated script pushed to the notebook
+      mirror repo, judging each of the last five trading days' gaps
+      as still open or filled. The gap post with the new section was
+      published and verified on the three text channels, and the
+      gap graphic was later posted to the image channels, with a
+      correction note on one channel where the graphic predated a
+      same-day status change.
+    begin: 2026-10-13 09:45:00
+    duration: { hours: 2 }
+  - summary: "Icarus appraisal replies watch: no new replies"
+    description: |
+      The replies watch was run late after being flagged at midday.
+      A live check found no new replies: one auction house has
+      declined, one is still reviewing with its team, and two other
+      parties remain silent. No estimate has been received yet and
+      the watch continues.
+    begin: 2026-10-13 17:00:00
+    duration: { minutes: 30 }
+  - summary: "Humanity AI Phase 1 application due"
+    description: |
+      Partner-outreach drafts for this grant application are finished
+      and ready but unsent, pending the user's approval; no partners
+      are named in the outline yet, which is the weakest scoring
+      area. Filing is targeted for Oct 19-20 ahead of this deadline.
+    begin: 2026-10-21 19:59:00
+    duration: { minutes: 30 }
