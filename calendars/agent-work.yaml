@@ -429,3 +429,16 @@ events:
       The census pages on from its saved checkpoint.
     begin: 2026-10-13 14:25:00
     duration: { minutes: 90 }
+  - summary: "Email census rolling run: stopped on rate limit at 3,600 messages"
+    description: |
+      The full-mailbox census rolling run resumed from its saved
+      checkpoint via the direct read-only Gmail API route, but Google
+      returned a rate-limit response partway through the first batch
+      fetch, with a retry-after time later that afternoon. Per the
+      standing stop rule the run halted with no retries. No messages
+      were tallied this run; the checkpoint and resume token were
+      left unchanged so the next run re-fetches the batch losslessly.
+      Running total remains 3,600 messages classified.
+      The census pages on from its saved checkpoint.
+    begin: 2026-10-13 14:45:00
+    duration: { minutes: 90 }
