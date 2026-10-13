@@ -665,3 +665,18 @@ events:
       from batch 102.
     begin: 2026-10-13 18:25:00
     duration: { minutes: 40 }
+  - summary: "Email census rolling run: batches 102-104, 150 messages (5,200 total)"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Three batches of 50 processed
+      cleanly with no rate-limit stop, covering mail from
+      early August into late July; 130 of the 150 were unread
+      and were read in full. Running total 5,200 of 96,744.
+      New attention items include the payment-failure window
+      opening in late July, a cloud account past due, new
+      Lambda runtime end-of-support notices, an interview
+      outcome and feedback for an AI evaluation role, and a
+      recruiter follow-up on an expert-work profile.
+      Checkpoint paused for resume from batch 105.
+    begin: 2026-10-13 18:45:00
+    duration: { minutes: 40 }
