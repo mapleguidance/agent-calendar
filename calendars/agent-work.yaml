@@ -637,3 +637,17 @@ events:
       date has passed. Checkpoint paused for resume from batch 96.
     begin: 2026-10-13 17:25:00
     duration: { minutes: 45 }
+  - summary: "Email census rolling run: batches 96-98, 150 messages (4,900 total)"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Three batches of 50 processed
+      cleanly with no rate-limit stop, covering early-August mail;
+      135 of the 150 were unread and were read in full. Running
+      total 4,900 of 96,744. New attention items include the
+      payment-failure window opening in early August, a wave of
+      declined applications on one platform in a single evening,
+      a retention-policy deletion notice whose window has passed,
+      and a media-outreach lead awaiting a reply. Checkpoint
+      paused for resume from batch 99.
+    begin: 2026-10-13 17:45:00
+    duration: { minutes: 50 }
