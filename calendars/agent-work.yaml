@@ -36,8 +36,8 @@ events:
       until: 2028-01-01 00:00:00
 
   # --- Recurring agent queues (each keeps its calendar event) ---
-  - summary: "Queue: 15-domain job sweep"
-    description: "Daily perfect-fit job sweep. Silent on quiet days."
+  - summary: "Queue: daily perfect-match job sweep (master v2)"
+    description: "Daily perfect-match job sweep judged against the master v2 resume/cover/glossary (redefined 2026-10-14; formerly the 15-domain sweep). Silent on quiet days."
     begin: 2026-10-12 08:47:00
     duration: { minutes: 30 }
     repeat:
