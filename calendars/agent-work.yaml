@@ -807,3 +807,16 @@ events:
       after the retry-after.
     begin: 2026-10-14 05:25:00
     duration: { minutes: 20 }
+  - summary: "Email census rolling run: 429 stop on batch 119, still at 5,900 messages (sixth consecutive)"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. The run started after the
+      previous retry-after (05:41:54 EDT). The batch-119 fetch
+      then hit a fresh 429 user-rate limit on its first call
+      (new retry-after 06:01:31 EDT) and the run stopped
+      entirely per the standing rule. No records were fetched,
+      lost, or double-counted. Running total unchanged at
+      5,900 of 96,744. Checkpoint paused for resume from
+      batch 119 after the retry-after.
+    begin: 2026-10-14 05:45:00
+    duration: { minutes: 20 }
