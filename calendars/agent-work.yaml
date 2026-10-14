@@ -736,3 +736,19 @@ events:
       Jul 21. Checkpoint paused for resume from batch 117.
     begin: 2026-10-13 20:05:00
     duration: { minutes: 40 }
+  - summary: "Email census rolling run: batches 117-118, 100 messages (5,900 total), 429 stop on batch 119"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Two batches of 50 processed
+      cleanly, covering Jul 21 to Jul 20 mail; 85 of the 100
+      were unread and were read in full. Running total 5,900
+      of 96,744. The batch-119 fetch then hit a 429 user-rate
+      limit on its first call (retry-after 22:54:59 EDT) and
+      the run stopped entirely per the standing rule, with no
+      records lost. New attention items include the
+      automation-failure cluster opening Jul 20, a fifth named
+      employer interested in his profile, and a legal/financial
+      follow-up awaiting his income information. Checkpoint
+      paused for resume from batch 119 after the retry-after.
+    begin: 2026-10-13 22:25:00
+    duration: { minutes: 40 }
