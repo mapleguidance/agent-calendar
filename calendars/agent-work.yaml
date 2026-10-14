@@ -723,3 +723,16 @@ events:
       Checkpoint paused for resume from batch 114.
     begin: 2026-10-13 19:45:00
     duration: { minutes: 40 }
+  - summary: "Email census rolling run: batches 114-116, 150 messages (5,800 total)"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Three batches of 50 processed
+      with no rate-limit stop, covering late-July mail; 134 of
+      the 150 were unread and were read in full. Running total
+      5,800 of 96,744. New attention items include the
+      payment-failure window opening Jul 22, a cloud local-zone
+      retirement notice for 2027, a legacy workbench export
+      deadline, and the automation-failure cluster opening
+      Jul 21. Checkpoint paused for resume from batch 117.
+    begin: 2026-10-13 20:05:00
+    duration: { minutes: 40 }
