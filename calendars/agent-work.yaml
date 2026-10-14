@@ -987,3 +987,21 @@ events:
       been received yet and the watch continues on schedule.
     begin: 2026-10-14 17:00:00
     duration: { minutes: 30 }
+  - summary: "Email census rolling run: batches 119-123 processed, 6,150 messages (429 wall broken)"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. After seven consecutive runs
+      stopped by a 429 on the batch-119 list call, this run
+      started about 5h41m after the last retry-after and
+      processed batches 119-123 in full: 250 messages, 228 of
+      them unread and body-read, hand-classified, no 429
+      anywhere. Running total 6,150 of 96,744. Attention list
+      grew to 699 entries: the payment-failure window now
+      opens Jul 17 (PayPal decline and a Bank of America
+      insufficient-funds alert for the business account),
+      Workspace payment failures on both domains on Jul 20,
+      a Google account-recovery security alert and an Accor
+      security-incident notice on Jul 17. Checkpoint paused
+      for resume from batch 124; no retry-after outstanding.
+    begin: 2026-10-14 17:45:00
+    duration: { minutes: 85 }
