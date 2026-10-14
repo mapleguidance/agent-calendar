@@ -834,3 +834,16 @@ events:
       after the retry-after.
     begin: 2026-10-14 11:45:00
     duration: { minutes: 20 }
+  - summary: "Greenhouse + Glassdoor official logins set up"
+    description: |
+      Greenhouse candidate portal (MyGreenhouse) signed in with the
+      user's main email; sign-in is password-free by emailed code.
+      Nine prior applications across employers are visible in the
+      portal. Glassdoor account created the same day through the
+      Google sign-in route (the login runs through Indeed one-login
+      and offers no password option for this address); the Indeed
+      account is linked under the same login. A Gmail draft record
+      of the Glassdoor account was deferred by a connector rate
+      limit; the text is saved for the next mail pass.
+    begin: 2026-10-14 12:17:00
+    duration: { minutes: 30 }
