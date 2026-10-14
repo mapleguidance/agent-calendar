@@ -1005,3 +1005,22 @@ events:
       for resume from batch 124; no retry-after outstanding.
     begin: 2026-10-14 17:45:00
     duration: { minutes: 85 }
+  - summary: "Email census rolling run: batches 124-128 processed, 6,400 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 124-128 processed in
+      full: 250 messages, 230 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 6,400
+      of 96,744. Attention list grew to 719 entries: the
+      2026-2027 AWS Imagine Grant application was not invited
+      to Round Two (Jul 13); the payment-failure window now
+      opens Jul 14 (a PayPal decline and an AWS unpaid-charges
+      notice the same day); a second, earlier tenplums Google
+      account recovery on Jul 14; four LinkedIn verification-
+      code emails within 17 minutes on Jul 13; eight LangSmith
+      Fleet GitHub permission requests on Jul 15. One batch
+      fetch died mid-batch and was re-fetched losslessly from
+      the same checkpoint token. Checkpoint paused for resume
+      from batch 129; no retry-after outstanding.
+    begin: 2026-10-14 18:45:00
+    duration: { minutes: 95 }
