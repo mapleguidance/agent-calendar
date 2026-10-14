@@ -847,3 +847,143 @@ events:
       limit; the text is saved for the next mail pass.
     begin: 2026-10-14 12:17:00
     duration: { minutes: 30 }
+  - summary: "onlyspx 6am pivots: blocked run recovered, premarket set posted"
+    description: |
+      The scheduled pivots run was blocked on a sign-in wall in the
+      worker browser context on all retry-ladder attempts. A manual
+      main-chat rerun recovered the day's levels, and the premarket
+      post in the locked format was published and verified on all
+      five channels. The same morning, both onlyspx scheduled jobs
+      were converted to main-chat execution after the session split
+      between worker and main-chat browser contexts was confirmed.
+    begin: 2026-10-14 06:00:00
+    duration: { minutes: 75 }
+
+  - summary: "MapleScholar morning investigation: PageSpeed day"
+    description: |
+      Read-only investigation completed. A mail sweep for Ads notices
+      was cut off by a connector rate limit, leaving part of the day
+      unseen. Desktop field core-web-vitals failed and worsened on
+      the main section page, mobile field data was absent across the
+      checked URLs, and one paper page was a clear lab-performance
+      outlier. A discrepancy between the day's top-paper list and the
+      prior day's summary was flagged to reconcile. Nothing applied.
+    begin: 2026-10-14 06:45:00
+    duration: { minutes: 30 }
+
+  - summary: "MapleScholar brand search terms pull (read-only)"
+    description: |
+      A user-requested pull of search terms and keywords for the two
+      brand-defense campaigns was completed read-only and saved as
+      spreadsheets: nothing was added, paused, edited, or excluded.
+      Finding: the top matched terms are generic scholarly queries
+      rather than brand terms, matched via broad match, and the
+      two-word brand keyword exists in exact match only. A separate
+      diagnosis follow-up on the account-level grant daily cap was
+      presented with options and awaits the user's decision; no
+      budget or setting was changed.
+    begin: 2026-10-14
+
+  - summary: "Shazam library rebuilt as a YouTube Music playlist"
+    description: |
+      The user supplied screenshots of a song-tagging app library;
+      97 unique songs were transcribed and shown in full before any
+      adding. Sign-in to the music service on the user's main
+      account was completed first (a stale saved password was
+      worked around via a user-directed route and a phone
+      approval). The playlist build completed after a mid-build
+      browser outage and resume: 93 tracks added (87 exact matches,
+      6 logged substitutions) and 4 tracks not found on the service
+      and logged as such. A web download control exists in-browser;
+      offline download on the phone still needs the in-app tap.
+    begin: 2026-10-14 07:34:00
+    duration: { hours: 3 }
+
+  - summary: "onlyspx market-open gap: posted on all channels"
+    description: |
+      First gap run under main-chat execution, with no session wall.
+      The gap was computed in the codespace, the exact draft was
+      shown first and approved, and the text post was published and
+      verified on the three text channels, including the 5-Day Gap
+      Status section. The gap graphic was then published on the two
+      image channels, completing the day's full onlyspx set.
+    begin: 2026-10-14 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Proactive handoffs review: surveys presented, stale items held"
+    description: |
+      Four paid expert survey and interview invitations from recent
+      mail were presented to the user in priority order for him to
+      run himself; nothing was clicked or started. Three prepared
+      proactive nudges were checked against current records and
+      suppressed as stale. A family travel ticket-issuance item was
+      held in verification pending a passport-name confirmation;
+      no reply was sent.
+    begin: 2026-10-14 09:15:00
+    duration: { minutes: 20 }
+
+  - summary: "Search Console indexing run: resumed, one request rejected"
+    description: |
+      The indexing run was first blocked on a phone approval step;
+      the user approved and the run resumed from the main chat. The
+      one discovered paper page was inspected and its indexing
+      request was rejected by the search engine, which reported a
+      fetch failure, while a direct check minutes later served the
+      page normally — a crawler-specific or intermittent failure,
+      not a down page. The crawled chat URLs were skipped untouched
+      under the permanent owner exclusion. Quota was not hit and
+      the remaining list is unchanged.
+    begin: 2026-10-14 11:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Comprehensive perfect-match job search completed: no perfect fits"
+    description: |
+      A user-directed comprehensive search was run against the
+      master v2 resume, cover letter, and glossary: 15 domain
+      sub-tasks executed strictly sequentially, Canada city-by-city
+      first, then worldwide hubs, with every candidate verified on
+      the employer's own posting. Result: zero perfect fits, with
+      several hundred near-misses each recorded with its exact
+      fail reason and coverage gaps stated. One role was flagged
+      for a possible user exception decision. Research only —
+      nothing was applied and no employer was contacted.
+    begin: 2026-10-14 10:46:00
+    duration: { hours: 1 }
+
+  - summary: "Special in-platform job search: LinkedIn step complete, Indeed blocked"
+    description: |
+      A second user-directed search worked inside the signed-in
+      job platforms step by step, Canada cities one by one with
+      the location set per city, judged against the master v2 set.
+      The LinkedIn step completed across all 16 locations with 26
+      verified best matches recorded. The Indeed step was blocked
+      at its start by a verification check, left untouched under
+      the standing team rule for the user's own clearance; the
+      remaining platform steps are parked pending that. Research
+      only at this stage — nothing applied.
+    begin: 2026-10-14 13:00:00
+    duration: { hours: 3 }
+
+  - summary: "Deadline application packages built; first application submitted"
+    description: |
+      At the user's direction, tailored application packages were
+      built for four time-sensitive health and research roles
+      closing over three days. The first application was submitted
+      through the employer's directed email channel in its required
+      format and logged in the tracker with a seven-day follow-up.
+      The second was blocked at a candidate-account creation wall;
+      the user later directed which existing password to use for
+      that account. The remaining two routes were mapped as
+      account-required application portals, packages ready.
+    begin: 2026-10-14 16:02:00
+    duration: { minutes: 45 }
+
+  - summary: "Icarus appraisal replies watch: no new replies"
+    description: |
+      The replies watch checked the mailbox live for responses from
+      the auction houses and appraiser contacted about the bronze.
+      No new replies: one house has declined, one is still reviewing
+      with its team, and two parties remain silent. No estimate has
+      been received yet and the watch continues on schedule.
+    begin: 2026-10-14 17:00:00
+    duration: { minutes: 30 }
