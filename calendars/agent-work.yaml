@@ -1024,3 +1024,22 @@ events:
       from batch 129; no retry-after outstanding.
     begin: 2026-10-14 18:45:00
     duration: { minutes: 95 }
+
+  - summary: "Email census rolling run: batches 129-133 processed, 6,650 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 129-133 processed in
+      full: 250 messages, 221 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 6,650
+      of 96,744. Attention list grew to 752 entries: BDC v.
+      Project Hamburg Corporation judgment-and-writ
+      correspondence (Jul 10); an Earnest severely-past-due
+      payoff offer (Jul 9); the payment-failure window now
+      opens Jul 10, with a Vonage suspension notice and a
+      same-day payment confirmation in tension; a donor
+      thread awaiting a payment link after the GoFundMe
+      account closure (Jul 9); a domain expiring July 15
+      with auto-renewal disabled. Checkpoint paused for
+      resume from batch 134; no retry-after outstanding.
+    begin: 2026-10-14 19:05:00
+    duration: { minutes: 50 }
