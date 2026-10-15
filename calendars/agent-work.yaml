@@ -1567,3 +1567,17 @@ events:
       retry-after outstanding.
     begin: 2026-10-15 06:25:00
     duration: { minutes: 45 }
+
+  - summary: "onlyspx premarket pivots + five-channel post — Thu Oct 15"
+    description: |
+      Scheduled worker walled at the GitHub sign-in page; pivots recovered
+      manually in the main chat (codespace started, notebook cells run).
+      Levels for Thu Oct 15 (ESZ6): R3 7934.50, R2 7877.75, R1 7821.00,
+      P 7781.00, S1 7724.25, S2 7684.25, S3 7627.50; expected move
+      7764.25 +/-69 pts. Post shown to the owner first, then published on
+      all five channels (Instagram, Facebook, X, StockTwits, YouTube)
+      using the owner-supplied graphic for the image channels. Three
+      browser channels died once in a browser outage and posted on
+      retries with duplicate checks re-run.
+    begin: 2026-10-15 06:20:00
+    duration: { minutes: 55 }
