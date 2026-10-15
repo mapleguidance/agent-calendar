@@ -1354,3 +1354,26 @@ events:
       206; no retry-after outstanding.
     begin: 2026-10-15 02:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 206-210 processed, 10,500 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 206-210 processed in
+      full: 250 messages, 228 of them unread and body-read,
+      hand-classified, no 429 anywhere and no fetch failures.
+      Running total 10,500 of 96,744. Attention list grew to
+      1,131 entries: an ads account faces debt-collection
+      transfer over an unpaid balance; a cloud billing account
+      was suspended May 20 and terminated May 27; an imminent
+      account suspension notice dates to May 20 with three
+      past-due notices on May 21; a personal card account was
+      transferred to a collections servicer; a business bank
+      account hit insufficient funds on May 18; a gig-platform
+      project submission was rejected with no payment and the
+      same platform's support reply states the US-only tasking
+      policy behind its verification and deactivation strands;
+      and two more gig applications went in May 19.
+      Checkpoint paused for resume from batch 211; no
+      retry-after outstanding.
+    begin: 2026-10-15 02:45:00
+    duration: { minutes: 45 }
