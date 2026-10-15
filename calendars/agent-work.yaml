@@ -1581,3 +1581,18 @@ events:
       retries with duplicate checks re-run.
     begin: 2026-10-15 06:20:00
     duration: { minutes: 55 }
+
+  - summary: "Email census rolling run — batches 251-255"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 251-255 processed (250 messages,
+      189 unread body-read), running total 12,750 of 96,744. Sharpest
+      finds: Sentinel critical PRs extend to #132; a Google Cloud
+      project suspension risk with a past-due billing account; the
+      Google Ads payment strand now opens Apr 23; an Uber Project
+      Sandbox onboarding thread with an assessment-upload complaint;
+      and a third Coleman consulting strand. Attention list at 1,457.
+      Checkpoint paused for resume from batch 256; no retry-after
+      outstanding.
+    begin: 2026-10-15 06:45:00
+    duration: { minutes: 45 }
