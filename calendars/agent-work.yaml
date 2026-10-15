@@ -1399,3 +1399,28 @@ events:
       216; no retry-after outstanding.
     begin: 2026-10-15 03:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 216-220 processed, 11,000 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 216-220 processed in
+      full: 250 messages, 219 of them unread and body-read,
+      hand-classified, no 429 anywhere. A runtime restart
+      killed the first fetch chain mid-batch; the partial
+      batch was refetched from the last complete batch's
+      token and verified lossless. Running total 11,000 of
+      96,744. Attention list grew to 1,203 entries: the May
+      payment-failure cluster widened (card declines across
+      a software invoice, a debit card, a phone bill, a
+      mobile plan and a business phone account on May 13-14);
+      a charged-off card account balance was confirmed ahead
+      of its collections transfer; the cloud billing strands
+      now open May 13; two more critical-severity security
+      fixes landed in the site repo; a suspicious interview
+      invitation claiming a pharma firm came from a personal
+      mail address; a postal-service application was declined
+      after interview; and a crypto buy-and-send sequence ran
+      May 15. Checkpoint paused for resume from batch 221;
+      no retry-after outstanding.
+    begin: 2026-10-15 03:45:00
+    duration: { minutes: 45 }
