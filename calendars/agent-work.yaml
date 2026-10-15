@@ -1193,3 +1193,25 @@ events:
       retry-after outstanding.
     begin: 2026-10-14 23:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 171-175 processed, 8,750 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 171-175 processed in
+      full: 250 messages, 222 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 8,750
+      of 96,744. Attention list grew to 947 entries: the
+      payment-failure cluster now opens Jun 10 and runs to
+      Jun 23 (PayPal declines, LangChain failures, Microsoft
+      past-due opening Jun 11, AWS past-due, a Hartford
+      insurance payment failure, a low-balance alert, and a
+      75 percent credit-utilization warning); Kanuka counsel
+      confirmed the Saskatchewan strike-off deadline was
+      Jun 15 with counsel filing to avoid it while their
+      2025 invoice remains unpaid; the BDC court case file
+      changed Jun 11; the Vonage strand opens Jun 11; a
+      Coinbase deposit, USDC purchase and onward send all
+      landed Jun 11. Checkpoint paused for resume from
+      batch 176; no retry-after outstanding.
+    begin: 2026-10-14 23:45:00
+    duration: { minutes: 45 }
