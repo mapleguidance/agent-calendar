@@ -1652,3 +1652,18 @@ events:
       paused for resume from batch 276; no retry-after outstanding.
     begin: 2026-10-15 08:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 276-280"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 276-280 processed (250 messages,
+      225 unread body-read), running total 14,000 of 96,744. Sharpest
+      finds: Sentinel PRs extend to #93 with three critical hardcoded-
+      credential PRs at the low end; sensitive personal identifiers
+      were sent in plain email on Apr 9; two Google Cloud billing
+      accounts were suspended Apr 8 ahead of their Apr 15 terminations;
+      and the Google Ads suspension and PayPal decline strands now
+      open Apr 7. Attention list at 1,678. Checkpoint paused for
+      resume from batch 281; no retry-after outstanding.
+    begin: 2026-10-15 09:05:00
+    duration: { minutes: 45 }
