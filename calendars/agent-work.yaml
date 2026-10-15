@@ -1762,3 +1762,26 @@ events:
       Instagram and YouTube.
     begin: 2026-10-15 12:32:00
     duration: { minutes: 15 }
+
+  - summary: "Email census rolling run — batches 306-310"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 306-310 processed (250 messages,
+      202 unread body-read), running total 15,500 of 96,744. Sharpest
+      finds: the Sentinel strand extends to PR #39 (the SSRF family is
+      now eight PRs: #39, #42, #50, #51, #54, #61, #64, #69) and a
+      CRITICAL hardcoded-credentials PR #47 joins that family (now
+      eight); his nonprofit outreach to Kathryn Ruemmler at Goldman
+      Sachs bounced on all nine guessed addresses; Claude for
+      Nonprofits eligibility was denied; the Perplexity, Cursor,
+      Atlassian and ChatGPT Plus payment strands now open Mar 20-22;
+      three AWS past-due notices landed Mar 21 while his two personal
+      domain renewals succeeded; a PayPal PYUSD buy-and-send (Mar 19)
+      precedes a Coinbase USDC send (Mar 20); a high-risk MaplePay
+      $180 services payment failed then approved; The Founders Club
+      declined him on its $1M-revenue rule; and CBP says only the
+      interview remains for Global Entry/NEXUS. Attention list at
+      1,883. Checkpoint paused for resume from batch 311; no
+      retry-after outstanding.
+    begin: 2026-10-15 12:05:00
+    duration: { minutes: 45 }
