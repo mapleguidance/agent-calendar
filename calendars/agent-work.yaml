@@ -1043,3 +1043,24 @@ events:
       resume from batch 134; no retry-after outstanding.
     begin: 2026-10-14 19:05:00
     duration: { minutes: 50 }
+
+  - summary: "Email census rolling run: batches 134-138 processed, 6,900 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 134-138 processed in
+      full: 250 messages, 235 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 6,900
+      of 96,744. Attention list grew to 778 entries: a law
+      firm asking him to sign a consent removing them as
+      lawyers of record for Project Hamburg Corporation,
+      with the unsigned DocuSign envelope alongside (Jul 6);
+      the payment-failure window now opens Jul 7 (PayPal
+      decline, Dropbox downgrade after failed charges, a
+      negative-balance alert), countered by an AWS payment
+      that went through and a direct deposit credited
+      Jul 6; a Dropbox full-account deadline of Sep 6, 2026;
+      a TELUS Digital ID-verification step outstanding
+      (Jul 6). Checkpoint paused for resume from batch 139;
+      no retry-after outstanding.
+    begin: 2026-10-14 19:45:00
+    duration: { minutes: 50 }
