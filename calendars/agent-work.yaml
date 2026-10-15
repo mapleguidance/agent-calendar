@@ -1285,3 +1285,26 @@ events:
       batch 191; no retry-after outstanding.
     begin: 2026-10-15 01:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 191-195 processed, 9,750 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 191-195 processed in
+      full: 250 messages, 221 of them unread and body-read,
+      hand-classified, no 429 anywhere and no fetch failures.
+      Running total 9,750 of 96,744. Attention list grew to
+      1,055 entries: litigation counsel asked whether he
+      intends to oppose the bank's motion and later pointed
+      him to a bankruptcy assistance program; he committed in
+      writing to pay an outstanding counsel invoice within
+      the month; a gig-platform appeal nearly closed for
+      non-response before he intervened the same morning; a
+      student-loan past-due notice series now opens in late
+      May, ahead of the June payment-failure cluster, which
+      gained another member on Jun 1; a clinic prescription
+      awaits in-person pickup; a usage-limit increase was
+      denied; and a second expert-network application closed.
+      Checkpoint paused for resume from batch 196; no
+      retry-after outstanding.
+    begin: 2026-10-15 01:25:00
+    duration: { minutes: 45 }
