@@ -1145,3 +1145,27 @@ events:
       outstanding.
     begin: 2026-10-14 22:25:00
     duration: { minutes: 60 }
+
+  - summary: "Email census rolling run: batches 161-165 processed, 8,250 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 161-165 processed in
+      full: 250 messages, 223 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 8,250
+      of 96,744. Attention list grew to 903 entries: the
+      GoFundMe Pro account refusal traces to its Jun 18 origin
+      (Trust and Safety closure decision, his same-evening
+      reply); the Vonage strand opens Jun 19 with a final
+      suspension notice and a phone-agreed payment
+      arrangement; the payment-failure window now opens
+      Jun 17 (PayPal debit declines, a bank low-funds alert,
+      Microsoft and Dropbox payment failures, and the
+      LangSmith organization deactivated Jun 18 over the
+      repeated $39 charge); an unrestricted Gemini API key
+      notice with a Jun 19 restrict-by date; a MOHELA
+      representative awaiting his call about his student
+      loans; a personal domain registration lapsed Jul 15.
+      Checkpoint paused for resume from batch 166; no
+      retry-after outstanding.
+    begin: 2026-10-14 22:45:00
+    duration: { minutes: 45 }
