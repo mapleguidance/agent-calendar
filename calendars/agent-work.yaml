@@ -1064,3 +1064,24 @@ events:
       no retry-after outstanding.
     begin: 2026-10-14 19:45:00
     duration: { minutes: 50 }
+
+  - summary: "Email census rolling run: batches 139-143 processed, 7,150 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 139-143 processed in
+      full: 250 messages, 226 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 7,150
+      of 96,744. Attention list grew to 801 entries: Anthropic
+      paused his subscription access after a failed payment
+      (Jul 3); the payment-failure window now opens Jul 3
+      (PayPal declines Jul 3-5, two Google Workspace payment
+      failures Jul 5), countered by a Microsoft 365 renewal
+      that went through Jul 4; an AWS account closure
+      confirmation (Jul 5) and a Lambda Python 3.10
+      end-of-support action notice (Jul 2); a SAM.gov final
+      API-key rotation reminder (Jul 5); the Skip business
+      verification pay-first/credit-after loop fully traced
+      Jul 2-4. Checkpoint paused for resume from batch 144;
+      no retry-after outstanding.
+    begin: 2026-10-14 20:05:00
+    duration: { minutes: 50 }
