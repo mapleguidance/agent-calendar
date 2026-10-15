@@ -1716,3 +1716,20 @@ events:
       retry-after outstanding.
     begin: 2026-10-15 10:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 296-300"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 296-300 processed (250 messages,
+      216 unread body-read), running total 15,000 of 96,744. Sharpest
+      finds: the Sentinel strand extends to PR #57 (a CRITICAL SSRF
+      at #61 and a HIGH SSRF at #64 join #69); his own Mar 28 AWS
+      partial-payment pleas were found, two of them bounced off the
+      no-reply address; the Anthropic, Perplexity, PayPal and
+      ChatGPT Plus payment strands now open Mar 26-28; six Claude
+      GitHub App permission requests landed Mar 26; and one of his
+      French nonprofit outreach letters bounced while another was
+      acknowledged. Attention list at 1,811. Checkpoint paused for
+      resume from batch 301; no retry-after outstanding.
+    begin: 2026-10-15 11:05:00
+    duration: { minutes: 45 }
