@@ -2212,3 +2212,15 @@ events:
       was hit.
     begin: 2026-10-15 18:25:00
     duration: { minutes: 40 }
+
+  - summary: "Email census rolling run: batches 371-375"
+    description: |
+      Continued the full-mailbox census for the main account via the
+      direct read-only Gmail API route. Processed 250 more messages
+      (226 unread read in full), hand-classified every record, and
+      added 31 needs-attention entries. Census now stands at 18,750
+      of 96,744 messages, checkpoint paused with the next resume
+      token saved. No mail was deleted or labelled; no rate limit
+      was hit.
+    begin: 2026-10-15 18:45:00
+    duration: { minutes: 40 }
