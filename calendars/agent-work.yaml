@@ -1733,3 +1733,21 @@ events:
       resume from batch 301; no retry-after outstanding.
     begin: 2026-10-15 11:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 301-305"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 301-305 processed (250 messages,
+      227 unread body-read), running total 15,250 of 96,744. Sharpest
+      finds: the Sentinel strand extends to PR #50 (the SSRF family is
+      now six PRs: #50, #51, #54, #61, #64, #69); two AWS accounts were
+      restricted for non-payment Mar 25; the Perplexity failure now
+      opens Mar 25 and the Cursor failure Mar 23; the FlightHub
+      Technical Product Manager - AI strand completed its arc
+      (scheduling Mar 23, call Mar 24, post-interview addendum);
+      Google Play rescued the Claude Pro payment via a backup method
+      Mar 24; and the Canada Post and Bell account strands both begin
+      Mar 23-24. Attention list at 1,843. Checkpoint paused for resume
+      from batch 306; no retry-after outstanding.
+    begin: 2026-10-15 11:25:00
+    duration: { minutes: 45 }
