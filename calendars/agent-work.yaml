@@ -1610,3 +1610,17 @@ events:
       batch 261; no retry-after outstanding.
     begin: 2026-10-15 07:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 261-265"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 261-265 processed (250 messages,
+      209 unread body-read), running total 13,250 of 96,744. Sharpest
+      finds: Sentinel critical PRs extend to #118; an Apr 16 Coinbase
+      buy-and-send sequence ending in a 250 USDC send; an Authorize.Net
+      account closure; a Square password-reset cluster; and Skip
+      $10,000 grant final-day notices. Attention list at 1,543.
+      Checkpoint paused for resume from batch 266; no retry-after
+      outstanding.
+    begin: 2026-10-15 07:45:00
+    duration: { minutes: 45 }
