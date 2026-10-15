@@ -1945,3 +1945,25 @@ events:
       outstanding.
     begin: 2026-10-15 16:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 351-355"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 351-355 processed (250 messages,
+      176 unread body-read), running total 17,750 of 96,744. Sharpest
+      finds: the Anthropic nonprofit programme arc completed (Goodstack
+      documentation requests Feb 22, verification reminders, then a
+      Feb 24 decision that the organization is not eligible for Claude
+      for Nonprofits); a MOHELA/Earnest student-loan transaction could
+      not be processed Feb 23; a Feb 22-23 payment-failure cluster
+      (Stripe LangChain and Intch repeat failures while he told Intch
+      he cannot afford it, a Zoom refund request closed unanswered,
+      ChatGPT Plus and Claude Pro card failures, an Atlassian decline
+      for the Research nonprofit) offset by a $180 PayPal receipt and
+      two Mercor earnings reports; the Handshake dispute arc assembled
+      in full (MultiMango access restored, Project Public Spaces paused
+      indefinitely); and LinkedIn Services client requests waiting for
+      Project Hamburg Research. Attention list at 2,235. Checkpoint
+      paused for resume from batch 356; no retry-after outstanding.
+    begin: 2026-10-15 17:05:00
+    duration: { minutes: 45 }
