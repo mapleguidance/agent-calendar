@@ -1237,3 +1237,26 @@ events:
       from batch 181; no retry-after outstanding.
     begin: 2026-10-15 00:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 181-185 processed, 9,250 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 181-185 processed in
+      full: 250 messages, 217 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 9,250
+      of 96,744. Attention list grew to 1,001 entries: an AWS
+      account suspension for non-payment dated Jun 4 was
+      found, ahead of the past-due notices; a court motion
+      thread was documented end-to-end across Jun 4-5,
+      including the court coordinator's virtual-hearing form
+      and opposing counsel's position that no materials were
+      filed; the June payment-failure cluster now opens
+      Jun 4; a grant application deadline fell on Jun 5; an
+      insolvency-firm phone appointment was booked for
+      Jun 10; two more credentials delivered by email were
+      flagged without recording their values; and a second
+      domain expiry (Jul 15, renewal disabled) was found.
+      Checkpoint paused for resume from batch 186; no
+      retry-after outstanding.
+    begin: 2026-10-15 00:45:00
+    duration: { minutes: 45 }
