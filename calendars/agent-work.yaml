@@ -1925,3 +1925,23 @@ events:
       for resume from batch 346; no retry-after outstanding.
     begin: 2026-10-15 16:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 346-350"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 346-350 processed (250 messages,
+      206 unread body-read), running total 17,500 of 96,744. Sharpest
+      finds: the BDC litigation defence thread is assembled end to
+      end (draft Statement of Defence sent Feb 25 for a Friday filing
+      deadline, his approval Feb 26, a retainer required before
+      filing, his reply that he could not secure it, and counsel
+      declining services in lieu of payment); the RWS TrainAI strand
+      holds four negative outcomes in two days (Feb 27-28); the AWS
+      restriction/reinstatement arc spans Feb 25-27 across two
+      accounts; Mercor rejections extend down to Feb 24; a Coleman
+      consulting request was followed up unanswered; and an Ahrefs
+      phishing warning arrived Feb 27. Attention list at 2,202.
+      Checkpoint paused for resume from batch 351; no retry-after
+      outstanding.
+    begin: 2026-10-15 16:45:00
+    duration: { minutes: 45 }
