@@ -1847,3 +1847,23 @@ events:
       recovered losslessly from the batch page token.
     begin: 2026-10-15 14:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 326-330"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 326-330 processed (250 messages,
+      204 unread body-read), running total 16,500 of 96,744. Sharpest
+      finds: the Sentinel strand extends to PR #12 and includes a
+      critical exposed-API-keys fix at PR #15; Mercor rejections
+      reached nine beside fresh submissions and a named project
+      lead's direct outreach; a Bright Data account suspension for
+      insufficient funds; the MaplePay chain gained a critical
+      declined event; the AWS past-due strand extends to Mar 8 and a
+      bank balance alert showed a negative balance; an international
+      transfer was delivered and a crypto wallet chain ran the same
+      day; the MoCA strand gained a human coffee thread; and the
+      Uber AI strand was running three projects in one week.
+      Attention list at 2,049. Checkpoint paused for resume from
+      batch 331; no retry-after outstanding.
+    begin: 2026-10-15 14:45:00
+    duration: { minutes: 45 }
