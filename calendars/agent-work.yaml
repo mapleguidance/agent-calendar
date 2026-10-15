@@ -1447,3 +1447,27 @@ events:
       resume from batch 226; no retry-after outstanding.
     begin: 2026-10-15 04:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 226-230 processed, 11,500 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 226-230 processed in
+      full: 250 messages, 222 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 11,500
+      of 96,744. Attention list grew to 1,265 entries: a
+      debt-collection notice from a receivables firm dated
+      May 6; new revenue-agency mail waiting (a payroll-family
+      information request); the repo security-fix strand
+      widened downward to three hardcoded-credential fixes
+      (May 5-7); the cloud past-due strand extended back to
+      May 6 and its free-tier alert strand opened May 5; a
+      loan servicer asked him to call about a loan requiring
+      attention; a phone carrier's failed autopayment paired
+      with a recently cancelled line; a gig platform support
+      case about an account showing no tasks; two AI model
+      deprecation/retirement notices; and a nonprofit
+      software-credit subscription payment due. Checkpoint
+      paused for resume from batch 231; no retry-after
+      outstanding.
+    begin: 2026-10-15 04:45:00
+    duration: { minutes: 45 }
