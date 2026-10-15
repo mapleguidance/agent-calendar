@@ -1886,3 +1886,22 @@ events:
       from batch 336; no retry-after outstanding.
     begin: 2026-10-15 15:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 336-340"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 336-340 processed (250 messages,
+      199 unread body-read), running total 17,000 of 96,744. Sharpest
+      finds: a lender warned the company LLC loan was 364 days past
+      due and headed to liquidation at month end (Mar 4), opening a
+      hard loan week; his ads account lived a full suspension, appeal
+      and reactivation cycle in one day (Mar 3); Mercor rejections
+      reached fourteen beside a five-submission application cluster;
+      the TELUS support strand is traced end to end (setup requests
+      Mar 3, cases resolved Mar 4); a claims-firm voicemail joined a
+      five-caller voicemail run; three Quebec lottery applications
+      were acknowledged; and a Patreon page faced unpublishing in 30
+      days. Attention list at 2,122. Checkpoint paused for resume
+      from batch 341; no retry-after outstanding.
+    begin: 2026-10-15 15:45:00
+    duration: { minutes: 45 }
