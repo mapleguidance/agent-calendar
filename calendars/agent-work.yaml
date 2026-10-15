@@ -1471,3 +1471,29 @@ events:
       outstanding.
     begin: 2026-10-15 04:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 231-235 processed, 11,750 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 231-235 processed in
+      full: 250 messages, 239 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 11,750
+      of 96,744. Attention list grew to 1,301 entries: a
+      crypto buy-and-send sequence on May 4 (a deposit, two
+      stablecoin buys, then two outbound sends) matching a
+      later sequence already flagged for confirmation; a
+      workspace-suite payment failure warning of suspension;
+      a declined card for a software invoice and two declined
+      debit-card purchases, all for insufficient funds; the
+      repo security-fix strand widened downward to an admin
+      authentication bypass fix (May 3) and a high-severity
+      XSS fix (May 2); an AI subscription paused for a failed
+      payment with a separate store cancellation notice for
+      May 24 and a flood of usage-limit warnings; a partner
+      portal migration deadline of September 30; a loan
+      servicer offering lower-payment options; and a cluster
+      of new-device sign-in alerts on a gig account.
+      Checkpoint paused for resume from batch 236; no
+      retry-after outstanding.
+    begin: 2026-10-15 05:05:00
+    duration: { minutes: 45 }
