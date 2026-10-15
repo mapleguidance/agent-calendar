@@ -1545,3 +1545,25 @@ events:
       retry-after outstanding.
     begin: 2026-10-15 06:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 246-250 processed, 12,500 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 246-250 processed in
+      full: 250 messages, 230 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 12,500
+      of 96,744. Attention list grew to 1,423 entries: Google
+      Workspace payment failures confirmed on two domains
+      (the main domain and a second domain); the primary
+      charged-off notice for a store card with an $18,046.10
+      balance; the repo security-fix strand widened downward
+      to four more critical hardcoded-secret fixes (Apr
+      23-26, series now PR #137-#206); a business account
+      insufficient-funds notice for Apr 22; a new GitHub App
+      permission request; a backup payment method used for
+      an AI subscription after the primary card failed; and
+      a UK health login account closed for non-use.
+      Checkpoint paused for resume from batch 251; no
+      retry-after outstanding.
+    begin: 2026-10-15 06:25:00
+    duration: { minutes: 45 }
