@@ -1331,3 +1331,26 @@ events:
       resume from batch 201; no retry-after outstanding.
     begin: 2026-10-15 02:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 201-205 processed, 10,250 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 201-205 processed in
+      full: 250 messages, 223 of them unread and body-read,
+      hand-classified, no 429 anywhere. A runtime restart
+      killed the first fetch chain after batch 203; a resume
+      chain from the saved token completed batches 204-205
+      with nothing lost or double-counted. Running total
+      10,250 of 96,744. Attention list grew to 1,103 entries:
+      a gig-platform project reinstatement was denied as
+      final with no appeal; the same platform's verification
+      and deactivation strands widen back to May 22; a
+      workflow-failure cluster now opens May 22 Pacific and
+      a second repo failure front appeared; at least seven
+      voicemails sit unlistened from late May; a cloud local
+      zone retirement in April 2027 needs action; a secure
+      sign-in link was flagged; and another gig channel went
+      live May 22. Checkpoint paused for resume from batch
+      206; no retry-after outstanding.
+    begin: 2026-10-15 02:25:00
+    duration: { minutes: 45 }
