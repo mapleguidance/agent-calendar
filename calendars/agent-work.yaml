@@ -1785,3 +1785,24 @@ events:
       retry-after outstanding.
     begin: 2026-10-15 12:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 311-315"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 311-315 processed (250 messages,
+      192 unread body-read), running total 15,750 of 96,744. Sharpest
+      finds: the Sentinel strand extends to PR #34 with a new family
+      (client-side admin auth bypass) and the SSRF family is now nine
+      PRs; three PayPal PYUSD buy-and-send cycles ran Mar 18-19 ahead
+      of a Coinbase USDC send; the $180 MaplePay services receipt
+      carries a third buyer name; Remitly transfers to Pakistan were
+      delivered alongside a new-device sign-in notice; AWS past-due
+      notices for two distinct accounts landed Mar 18; Bank of America
+      flagged insufficient funds on the LLC account; Earnest flagged an
+      issue with his loans beside a $1,328.13 statement due Apr 11;
+      five Mercor rejections landed Mar 17-18; and his Uber AI
+      assessment grading had been pending over a week. Attention list
+      at 1,920. Checkpoint paused for resume from batch 316; no
+      retry-after outstanding.
+    begin: 2026-10-15 12:45:00
+    duration: { minutes: 45 }
