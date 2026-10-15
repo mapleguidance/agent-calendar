@@ -1684,3 +1684,18 @@ events:
       outstanding.
     begin: 2026-10-15 09:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 286-290"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 286-290 processed (250 messages,
+      213 unread body-read), running total 14,500 of 96,744. Sharpest
+      finds: Sentinel PRs extend to #76, a sixth critical hardcoded-
+      credential PR; a Google Ads notice says his bank reported the
+      bank account closed (Apr 1); a Coinbase deposit-buy-send
+      sequence ran Apr 2; and the Google Cloud, Google Workspace,
+      Anthropic, Perplexity and AWS payment strands now open Apr 1-2.
+      Attention list at 1,752. Checkpoint paused for resume from
+      batch 291; no retry-after outstanding.
+    begin: 2026-10-15 10:05:00
+    duration: { minutes: 45 }
