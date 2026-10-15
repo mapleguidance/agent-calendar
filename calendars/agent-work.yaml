@@ -1123,3 +1123,25 @@ events:
       for resume from batch 156; no retry-after outstanding.
     begin: 2026-10-14 22:05:00
     duration: { minutes: 50 }
+
+  - summary: "Email census rolling run: batches 156-160 processed, 8,000 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 156-160 processed in
+      full: 250 messages, 223 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 8,000
+      of 96,744. Attention list grew to 874 entries:
+      GoFundMe Pro refused the account after review (Jun 23),
+      underneath the chargeback strand that now opens Jun 22;
+      the Vonage strand traced from Jun 22 (card failure,
+      arrangement accepted the same day, first half paid
+      Jun 25); Microsoft 365 past-due warning Jun 22 then
+      Business Basic canceled Jun 23; the payment-failure
+      window now opens Jun 21 (LangChain and PayPal debit
+      failures, Dropbox final reminder, AWS past-due notice);
+      a TradingView reply deadline to keep GitHub repo access;
+      a Patreon profile-merge deadline of Jul 6. Checkpoint
+      paused for resume from batch 161; no retry-after
+      outstanding.
+    begin: 2026-10-14 22:25:00
+    duration: { minutes: 60 }
