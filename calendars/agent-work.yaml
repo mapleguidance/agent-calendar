@@ -1905,3 +1905,23 @@ events:
       from batch 341; no retry-after outstanding.
     begin: 2026-10-15 15:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 341-345"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 341-345 processed (250 messages,
+      203 unread body-read), running total 17,250 of 96,744. Sharpest
+      finds: the Divvy vs Project Hamburg LLC legal thread is complete
+      end to end (intercession letter Feb 27, his same-day reply, the
+      Mar 2 follow-up pressing for intent); his Apple Card was charged
+      off in Oct 2025 with a balance still outstanding in Mar 2026;
+      the RWS TrainAI strand holds a conflict-blocked application, a
+      rejection, and his account-access reply; a further Mercor
+      rejection arrived Mar 3; the GitHub App Claude requested updated
+      permissions on five organizations plus his personal account; an
+      Anthropic AI for Science application was submitted Mar 1; and
+      the AWS past-due strand closed its recovery arc (paid and
+      reinstated Feb 27). Attention list at 2,167. Checkpoint paused
+      for resume from batch 346; no retry-after outstanding.
+    begin: 2026-10-15 16:05:00
+    duration: { minutes: 45 }
