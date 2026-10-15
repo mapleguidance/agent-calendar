@@ -1377,3 +1377,25 @@ events:
       retry-after outstanding.
     begin: 2026-10-15 02:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 211-215 processed, 10,750 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 211-215 processed in
+      full: 250 messages, 233 of them unread and body-read,
+      hand-classified, no 429 anywhere and no fetch failures.
+      Running total 10,750 of 96,744. Attention list grew to
+      1,163 entries: the cloud billing strand opens May 16
+      (project at risk of suspension, billing past due) ahead
+      of the May 20 suspension; three past-due account notices
+      date to May 17; a buyer chargeback case was filed
+      May 16; three critical-severity security fixes landed
+      in the site repo in mid-May; a gig strand's origin is
+      the user's own May 16 question about working from
+      Canada; a $10,000 grant's final-reminder deadline was
+      May 15; a domain expires June 12 with renewal off;
+      and stored media assets faced a two-day save window
+      from May 18. Checkpoint paused for resume from batch
+      216; no retry-after outstanding.
+    begin: 2026-10-15 03:25:00
+    duration: { minutes: 45 }
