@@ -1521,3 +1521,27 @@ events:
       batch 241; no retry-after outstanding.
     begin: 2026-10-15 05:25:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 241-245 processed, 12,250 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 241-245 processed in
+      full: 250 messages, 229 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 12,250
+      of 96,744. Attention list grew to 1,380 entries: a cloud
+      account was warned it is at risk of suspension for
+      non-payment (three notices, Apr 28); the student-loan
+      strand sharpened with failed transactions on Apr 27-28
+      plus a past-due notice; the repo security-fix strand
+      widened downward to a critical hardcoded-secret fix and
+      a high-severity SSRF fix (Apr 27-28); a business-plan
+      chase reached five messages in three days ahead of May
+      funding deadlines; two more $10,000 grant threads opened
+      for the LLC; a human interview-scheduling next step and
+      a mandatory document-verification step for a GenAI gig
+      both waited for action; and a funding-line inquiry for
+      the company arrived from an unfamiliar firm.
+      Checkpoint paused for resume from batch 246; no
+      retry-after outstanding.
+    begin: 2026-10-15 06:05:00
+    duration: { minutes: 45 }
