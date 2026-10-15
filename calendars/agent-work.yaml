@@ -1260,3 +1260,28 @@ events:
       retry-after outstanding.
     begin: 2026-10-15 00:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 186-190 processed, 9,500 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 186-190 processed in
+      full: 250 messages, 215 of them unread and body-read,
+      hand-classified, no 429 anywhere; one fetch chain died
+      mid-batch on a transient proxy refusal and the batch was
+      losslessly refetched after the partial was verified as
+      an exact prefix. Running total 9,500 of 96,744.
+      Attention list grew to 1,032 entries: the June
+      payment-failure cluster now opens Jun 1; a court
+      act-in-person notice sent through an e-signature service
+      was completed by all parties on Jun 1 and counsel
+      confirmed a virtual-hearing request could be made,
+      while opposing counsel asked that communications go
+      through counsel and the court granted case-file access;
+      a student-loan payment is past due; a gig-platform
+      account appeal remains open after documents were sent;
+      a code-hosting app permission review is waiting; and a
+      sign-in code delivered by email was flagged without
+      recording its value. Checkpoint paused for resume from
+      batch 191; no retry-after outstanding.
+    begin: 2026-10-15 01:05:00
+    duration: { minutes: 45 }
