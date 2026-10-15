@@ -1867,3 +1867,22 @@ events:
       batch 331; no retry-after outstanding.
     begin: 2026-10-15 14:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 331-335"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 331-335 processed (250 messages,
+      171 unread body-read), running total 16,750 of 96,744. Sharpest
+      finds: the maplescholar PR strand reached its origin (PRs #1-#9,
+      Mar 6-8) including a critical hardcoded-secret fix at PR #5;
+      Mercor rejections reached thirteen with a four-in-one-night
+      health-roles cluster; a student-loan transaction failed to
+      process beside a dollar-for-dollar match offer and a payout-at-
+      risk notice; the Volet merchant strand is traced end to end
+      (accepted Mar 5, approved Mar 7); the AWS past-due strand
+      extends to Mar 6; Search Console indexing spanned three
+      properties; and Mar 5 was the team AI-workspace provisioning
+      day. Attention list at 2,082. Checkpoint paused for resume
+      from batch 336; no retry-after outstanding.
+    begin: 2026-10-15 15:25:00
+    duration: { minutes: 45 }
