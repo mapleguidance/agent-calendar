@@ -1751,3 +1751,14 @@ events:
       from batch 306; no retry-after outstanding.
     begin: 2026-10-15 11:25:00
     duration: { minutes: 45 }
+
+  - summary: "onlyspx gap post — Thu Oct 15 (main-chat recovery, posted all channels)"
+    description: |
+      Scheduled 09:45 gap run blocked on the GitHub session in worker
+      context (3 sign-in walls); rerun from the main chat produced the
+      numbers: gap -28.50 pts (-0.367%), Type Full, prior close 7764.25,
+      RTH open 7735.75, 5-day row 9-Cl | 12-Cl | 13-Cl | 14-Op | 15-Op.
+      Draft approved by the user; posted to X, StockTwits, Facebook,
+      Instagram and YouTube.
+    begin: 2026-10-15 12:32:00
+    duration: { minutes: 15 }
