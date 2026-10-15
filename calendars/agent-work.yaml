@@ -1967,3 +1967,210 @@ events:
       paused for resume from batch 356; no retry-after outstanding.
     begin: 2026-10-15 17:05:00
     duration: { minutes: 45 }
+
+  - summary: "GitHub org migration authorized; queued after deadline applications"
+    description: |
+      The nonprofit Teams approval for the successor agent GitHub
+      organization was verified live, and the user authorized the
+      prepared migration of all agent repos to it, sequenced to run
+      only after the deadline job applications complete. Status:
+      queued, not yet executed.
+    begin: 2026-10-14 22:55:00
+    duration: { minutes: 30 }
+
+  - summary: "Evening priorities checkpoint: site performance and indexing findings"
+    description: |
+      The evening checkpoint was delivered. Desktop field
+      core-web-vitals on the main section failed and worsened, and
+      a deep performance dive was proposed, not applied. Indexing
+      for one paper page remains blocked by a crawler-side fetch
+      failure rather than request volume; the remaining indexing
+      queue is effectively exhausted. A discrepancy between two
+      days' top-paper lists was flagged to reconcile before the
+      Monday rotation review. No fixes were applied.
+    begin: 2026-10-14 23:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Daily chat archives: published to GitHub; Drive mirror failed; one day missing"
+    description: |
+      The prior day's main chat archive was exported and published
+      to its GitHub repo, and the companion agent's archive run
+      completed with no activity that day. The Drive mirror failed
+      again because its folder sits on a permanently disabled
+      account; repointing it awaits the user's decision. A gap was
+      found and flagged: one earlier day's main-chat archive is
+      missing entirely and a directed backfill is still owed.
+    begin: 2026-10-15 00:47:00
+    duration: { minutes: 20 }
+
+  - summary: "MapleScholar morning investigation: Ads day blocked on session"
+    description: |
+      The Ads-email sweep completed through the mail connector and
+      found only informational notices, no campaign action. The
+      browser session check found every account challenged and none
+      live, so the in-product sweep and the full Ads deep dive were
+      blocked and unverified; prior baselines were carried, not
+      presented as today's data. No changes were made anywhere.
+      Owner re-sign-in is the only route forward.
+    begin: 2026-10-15
+    duration: { minutes: 30 }
+
+  - summary: "Job search rules overhauled: skill-first three-track method adopted"
+    description: |
+      At the user's direction, the job search method was rebuilt:
+      matching is now on skills and duties, not titles or seniority,
+      with three separate tracks reported separately (contract and
+      platform work, career roles, and stable health, research and
+      nonprofit roles), a skill-first keyword set, a per-city
+      location rule for platform searches, and a rule that every
+      application is shown in final form and sent only after the
+      user's approval. The daily sweep was rewritten to match.
+    begin: 2026-10-15 07:25:00
+    duration: { minutes: 30 }
+
+  - summary: "Job search rerun completed: merged three-track lists delivered"
+    description: |
+      The existing verified pool was reclassified under the new
+      three-track rules and fresh skill-first platform searches were
+      run, completing the rerun. Track A grew to a dozen verified
+      contract candidates and Track C to over thirty entries, with
+      Track B remaining the hardest track. The merged lists were
+      delivered to the user. Two roles closing the next day were
+      flagged as time-sensitive for his decision.
+    begin: 2026-10-15 07:50:00
+    duration: { minutes: 45 }
+
+  - summary: "Outside job-search demonstration reviewed"
+    description: |
+      The user shared an outside job-search demonstration document
+      for review. Assessment delivered: its method was disciplined
+      but it was a sample, not a systematic sweep. It surfaced a
+      few leads the agent's own searches had missed; those are held
+      pending verification on the employers' own sites before they
+      enter the lists. One keyword lesson from it was adopted.
+    begin: 2026-10-15 08:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Oct 8 application batch: follow-up drafts delivered, nothing sent"
+    description: |
+      The seven-day follow-up run for the thirteen October 8
+      applications prepared thirteen individual follow-up drafts,
+      delivered to the user for approval; nothing was sent. Employer
+      checks found no replies, rejections, or interview invites
+      since the original confirmations. One employer's repeated
+      incomplete-application reminders were clarified as relating
+      to a separate referral never applied to, not to the submitted
+      application; that decision rests with the user.
+    begin: 2026-10-15 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Proactive deliveries: two corrections, a security alert, grant drafts complete"
+    description: |
+      Corrections were delivered: two previously flagged items are
+      dead ends (one application window closed with no submission;
+      one grant round has lapsed and is noted for next year). A
+      database security alert for the research site was presented
+      with a prepared, scoped fix and two routing options; nothing
+      was changed, awaiting the user's choice. A set of partner
+      outreach drafts for a grant application due later this month
+      was completed; nothing was sent, so the remaining gap is a
+      sending decision, not writing.
+    begin: 2026-10-15 09:01:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing run blocked on two-step verification"
+    description: |
+      The daily indexing run signed in but stopped at the phone
+      two-step prompt; the property was never reached, no
+      inspections or requests were made, and quota was untouched.
+      The remaining unverified list is unchanged from the prior
+      day. The run resumes once the user approves the prompt, or
+      retries fresh at the next daily window.
+    begin: 2026-10-15 11:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Kraft Heinz application submitted"
+    description: |
+      At the user's direct instruction, an application for an AI
+      governance role was submitted. The employer portal account
+      proved not to exist (an earlier form fill had never been tied
+      to an account); a new account was created using the portal's
+      email-code sign-in only, the application was refilled from the
+      record with the tailored resume, and submission was confirmed
+      on the portal dashboard the same day. A seven-day follow-up
+      is due. The account record notes that no password exists for
+      this portal.
+    begin: 2026-10-15 13:45:00
+    duration: { minutes: 60 }
+
+  - summary: "North York General Hospital application: package built, posting verified"
+    description: |
+      At the user's direction, a tailored application package was
+      built for a hospital analytics consultant role and shown to
+      him for approval. The user personally cleared the portal's
+      bot checks, and the live posting was verified in full,
+      including its early-November closing date. Submission awaits
+      only his approval tap.
+    begin: 2026-10-15 13:37:00
+    duration: { minutes: 45 }
+
+  - summary: "Special job search, Indeed step: Toronto pass completed"
+    description: |
+      The earlier parked Indeed task was found dead at its
+      verification check. A fresh task, spawned so the user could
+      clear that check himself, completed the whole Toronto pass
+      with the check never appearing. Ten candidates were verified
+      on their postings, seven of them new and all in the stable
+      track; the remaining cities and the remote pass are still
+      to run.
+    begin: 2026-10-15 16:19:00
+    duration: { minutes: 45 }
+
+  - summary: "Application documents self-reviewed: all nine proofed, one flaw fixed"
+    description: |
+      At the user's request, all nine application package documents
+      across four employers received a dedicated proof pass:
+      spelling, facts against the master record, employer and role
+      details, and layout. All were verified clean, with honest
+      skill boundaries confirmed throughout. One flaw was found
+      and fixed: an inconsistent date in one resume, after which
+      that package was rebuilt and re-verified.
+    begin: 2026-10-15 16:18:00
+    duration: { minutes: 20 }
+
+  - summary: "Halton Region application submitted ahead of deadline"
+    description: |
+      The regional quality improvement application was submitted a
+      day ahead of its deadline. The day's path: an initial sign-in
+      was rejected, a user-approved password reset produced no
+      email, and the account-creation verification route was
+      retried; the portal's protected code entry proved unusable,
+      and verification finally succeeded under the user's explicit
+      repeated direction. The application was completed from the
+      record, a parser-created duplicate education row was deleted
+      rather than left as a false credential, and the submission
+      confirmation was received on-page. A seven-day follow-up
+      is due.
+    begin: 2026-10-15 16:47:00
+    duration: { minutes: 60 }
+
+  - summary: "LHSC application launched"
+    description: |
+      Immediately after the Halton submission, the application for
+      a hospital decision support consultant role closing the next
+      day was launched, with the tailored resume and cover letter
+      and the full answer set pre-loaded from the record. Status at
+      day's flush: registration and submission in progress, outcome
+      not yet reported.
+    begin: 2026-10-15 17:13:00
+    duration: { minutes: 30 }
+
+  - summary: "Icarus appraisal replies watch: no new replies"
+    description: |
+      The replies watch checked the mailbox live for responses from
+      the auction houses and appraiser contacted about the bronze.
+      No new replies: one house has declined, one is still
+      reviewing, and the remaining parties are still silent. No
+      estimate has been received yet and the watch continues.
+    begin: 2026-10-15 17:00:00
+    duration: { minutes: 15 }
