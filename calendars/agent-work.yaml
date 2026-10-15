@@ -1596,3 +1596,17 @@ events:
       outstanding.
     begin: 2026-10-15 06:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 256-260"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 256-260 processed (250 messages,
+      208 unread body-read), running total 13,000 of 96,744. Sharpest
+      finds: a KuCoin login located in Mexico City; Sentinel critical
+      PRs extend to #125; a Microsoft past-due escalation ending in a
+      Microsoft 365 cancellation; five Mercor application rejections;
+      and Google Workspace payment failures on a second domain.
+      Attention list at 1,501. Checkpoint paused for resume from
+      batch 261; no retry-after outstanding.
+    begin: 2026-10-15 07:25:00
+    duration: { minutes: 45 }
