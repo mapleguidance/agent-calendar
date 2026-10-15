@@ -1624,3 +1624,17 @@ events:
       outstanding.
     begin: 2026-10-15 07:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 266-270"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 266-270 processed (250 messages,
+      214 unread body-read), running total 13,500 of 96,744. Sharpest
+      finds: Sentinel PRs extend to #109; an Outlier identity
+      verification failed on Apr 13; the Microsoft past-due arc opens
+      Apr 13 ahead of its cancellation; two Google Cloud billing
+      accounts were terminated Apr 15; and four Mercor applications
+      were submitted Apr 13. Attention list at 1,595. Checkpoint
+      paused for resume from batch 271; no retry-after outstanding.
+    begin: 2026-10-15 08:05:00
+    duration: { minutes: 45 }
