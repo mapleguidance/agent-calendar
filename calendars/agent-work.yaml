@@ -1667,3 +1667,20 @@ events:
       resume from batch 281; no retry-after outstanding.
     begin: 2026-10-15 09:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 281-285"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 281-285 processed (250 messages,
+      185 unread body-read), running total 14,250 of 96,744. Sharpest
+      finds: Sentinel PRs extend to #82 with five critical hardcoded-
+      credential PRs at the low end; Mercor disclosed a data security
+      incident just before confirming his mailbox access had ended;
+      payment strands pushed back to Apr 3-4 (Google Ads suspension,
+      Perplexity Pro cancellation, first Anthropic failure, first
+      BofA NSF); and the Square strand opens Apr 4 with a new bank
+      account and an expired account hold. Attention list at 1,713.
+      Checkpoint paused for resume from batch 286; no retry-after
+      outstanding.
+    begin: 2026-10-15 09:25:00
+    duration: { minutes: 45 }
