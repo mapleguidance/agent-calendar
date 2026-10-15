@@ -1806,3 +1806,23 @@ events:
       retry-after outstanding.
     begin: 2026-10-15 12:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 316-320"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 316-320 processed (250 messages,
+      193 unread body-read), running total 16,000 of 96,744. Sharpest
+      finds: the MaplePay services payment chain now opens Mar 13 with
+      a critical-risk approval, followed by a payer-confirmation
+      exchange the next day; the Sentinel strand extends to PR #25 and
+      the hardcoded-credentials family now spans five PRs; Google Maps
+      Platform credits for the nonprofit were granted (monthly credits
+      for 12 months); Mercor rejections reached seven; the Atlassian
+      payment-decline strand now opens Mar 15 and the Perplexity
+      failure strand Mar 13; MapleScholar outreach went to two
+      Zimbabwean university professors; and application confirmations
+      arrived from Spotify and FlightHub. Attention list at 1,958.
+      Checkpoint paused for resume from batch 321; no retry-after
+      outstanding.
+    begin: 2026-10-15 13:05:00
+    duration: { minutes: 45 }
