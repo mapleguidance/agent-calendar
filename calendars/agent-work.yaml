@@ -1826,3 +1826,24 @@ events:
       outstanding.
     begin: 2026-10-15 13:05:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run — batches 321-325"
+    description: |
+      Rolling full-mailbox census for the main account via the direct
+      Gmail API (read-only). Batches 321-325 processed (250 messages,
+      216 unread body-read), running total 16,250 of 96,744. Sharpest
+      finds: an Apple Card notice says the account was charged off in
+      October 2025 with a substantial remaining balance; the Sentinel
+      strand extends to PR #19 and the hardcoded-credentials family
+      grows to six PRs with PR #22; Mercor rejections reached eight
+      beside a fresh Mercor application submission; maplecare CI
+      failed six times in one day and two other repos failed deploys;
+      AWS past-due and Google Fi decline notices continued; a one-day
+      Coinbase funding-and-transfer chain ran Mar 13; the Skip grants
+      strand now opens Mar 11; and the LinkedIn service-marketplace
+      strand gained two new named requesters. Attention list at
+      2,007. Checkpoint paused for resume from batch 326; no
+      retry-after outstanding. One fetch chain died mid-batch and was
+      recovered losslessly from the batch page token.
+    begin: 2026-10-15 14:05:00
+    duration: { minutes: 45 }
