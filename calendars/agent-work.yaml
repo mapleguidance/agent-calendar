@@ -1169,3 +1169,27 @@ events:
       retry-after outstanding.
     begin: 2026-10-14 22:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 166-170 processed, 8,500 messages"
+    description: |
+      Rolling census run for the main mailbox via the direct
+      read-only Gmail API route. Batches 166-170 processed in
+      full: 250 messages, 221 of them unread and body-read,
+      hand-classified, no 429 anywhere. Running total 8,500
+      of 96,744. Attention list grew to 928 entries: the
+      payment-failure window now opens Jun 14 (PayPal debit
+      declines) and runs continuously to Jun 23; the
+      Microsoft 365 strand opens Jun 15 (past-due warnings
+      and a card decline, ahead of the Jun 23 cancellation);
+      the Vonage strand opens Jun 15 (card failure and a
+      past-due contact, ahead of the Jun 19 suspension
+      notice and the paid arrangement); a signed corporate
+      annual return sent to Saskatchewan counsel with the
+      counsel invoice still outstanding; a Handshake AI
+      deactivation appeal reply confirming his identity;
+      the GoFundMe chargeback strand opens Jun 15; the AWS
+      statement arrived Jun 15 and he disputed it Jun 17.
+      Checkpoint paused for resume from batch 171; no
+      retry-after outstanding.
+    begin: 2026-10-14 23:25:00
+    duration: { minutes: 45 }
