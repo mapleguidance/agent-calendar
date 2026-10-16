@@ -2523,3 +2523,22 @@ events:
       student-loan statement. No mail was deleted or labelled.
     begin: 2026-10-16 07:45:00
     duration: { minutes: 45 }
+
+  - summary: "Email census rolling run: batches 415-419 tallied (20,950 total)"
+    description: |
+      Continued the full-mailbox census for the main account via the
+      direct read-only Gmail API route. The quota window held for a
+      seventh consecutive full run: batches 415-419 were fetched and
+      hand-classified in full (250 messages, 206 unread), with no
+      rate limit hit and the fetch chain completing in one pass.
+      Census now stands at 20,950 of 96,744 messages, checkpoint
+      paused with the batch 420 resume token saved. 35 new
+      needs-attention entries were added (2,687 total), including a
+      collections litigation notice for a business balance, an API
+      access cutoff for lack of usage credits paired with a failed
+      payment, a bank low-balance alert, a saved-password breach
+      alert, a code-hosting access-security cluster, a client service
+      request, and an inbound expert-network message. No mail was
+      deleted or labelled.
+    begin: 2026-10-16 08:25:00
+    duration: { minutes: 40 }
