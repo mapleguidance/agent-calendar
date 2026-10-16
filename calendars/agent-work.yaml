@@ -3004,3 +3004,22 @@ events:
       transfers to confirm. No mail was deleted or labelled.
     begin: 2026-10-16 17:25:00
     duration: { minutes: 50 }
+
+  - summary: "Email census rolling run: batches 490-494 tallied (24,700 total)"
+    description: |
+      Continued the full-mailbox census for the main account via the
+      direct read-only Gmail API route. The previous run's rate-limit
+      penalty window was still running at this run's start, so the
+      fetch waited it out with no API calls, then fetched and
+      hand-classified batches 490-494 (250 messages, 215 unread);
+      batch 490 was re-fetched in full and no partial records were
+      double-counted. No rate limit was hit this run. Census now
+      stands at 24,700 of 96,744 messages, checkpoint paused with
+      the batch 495 resume token saved. 21 new needs-attention
+      entries were added (3,174 total), including a federal
+      registration pending-deletion warning, a family-office
+      investment follow-up, a charged-off card account notice, two
+      cloud suspension-risk notices, and a client request. No mail
+      was deleted or labelled.
+    begin: 2026-10-16 18:05:00
+    duration: { minutes: 45 }
