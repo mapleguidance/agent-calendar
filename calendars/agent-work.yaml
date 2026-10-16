@@ -3055,3 +3055,17 @@ events:
       labelled.
     begin: 2026-10-16 19:05:00
     duration: { minutes: 40 }
+
+  - summary: "Email census rolling run: 429 stop on batch 505 (25,200 total)"
+    description: |
+      Continued the full-mailbox census for the main account via the
+      direct read-only Gmail API route. The batch 505 fetch hit an
+      HTTP 429 user-rate limit (retry after 2026-10-17T00:08:54Z) after
+      42 of 50 records; per the standing rule the run stopped entirely
+      with no retries. The partial batch was not tallied and will be
+      re-fetched in full next run. Census stands at 25,200 of 96,744
+      messages, checkpoint paused with the batch 505 resume token
+      saved. Attention list unchanged at 3,222 entries. No mail was
+      deleted or labelled.
+    begin: 2026-10-16 19:45:00
+    duration: { minutes: 20 }
