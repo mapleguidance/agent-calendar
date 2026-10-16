@@ -2986,3 +2986,21 @@ events:
       sent. The underlying diagnosis request remains unstated.
     begin: 2026-10-16 17:46:00
     duration: { minutes: 30 }
+
+  - summary: "Email census rolling run: batches 486-489 tallied (24,450 total), 429 stop on batch 490"
+    description: |
+      Continued the full-mailbox census for the main account via the
+      direct read-only Gmail API route. Fetched and hand-classified
+      batches 486-489 (200 messages, 162 unread). Batch 490 then hit
+      a rate limit after a partial fetch; per the standing rule the
+      run stopped entirely with no retries, and the partial batch
+      was set aside untallied to be re-fetched in full next run.
+      Census now stands at 24,450 of 96,744 messages, checkpoint
+      paused with the batch 490 resume token saved. 22 new
+      needs-attention entries were added (3,153 total), including
+      a contract ready for signature, two cloud past-due notices,
+      a market-data payment escalation, a paid consulting
+      follow-up, a client request, and a cluster of crypto
+      transfers to confirm. No mail was deleted or labelled.
+    begin: 2026-10-16 17:25:00
+    duration: { minutes: 50 }
