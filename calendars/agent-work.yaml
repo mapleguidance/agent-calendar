@@ -2829,3 +2829,160 @@ events:
       was deleted or labelled.
     begin: 2026-10-16 17:05:00
     duration: { minutes: 40 }
+
+  - summary: "Daily chat archives: published to GitHub; Drive mirror failed again"
+    description: |
+      The prior day's main chat archive was exported and published
+      to its GitHub repo, and the companion agent's archive run
+      completed with no activity that day. The Drive mirror failed
+      again because its folder sits on a permanently disabled
+      account; repointing it awaits the user's decision. One
+      earlier day's archive gap remains open.
+    begin: 2026-10-16 00:47:00
+    duration: { minutes: 20 }
+
+  - summary: "MapleScholar morning investigation: Trends day completed on retry"
+    description: |
+      The main account was live again after the prior day's
+      challenged state, and the second account signed in through
+      its AI surface. Sweeps found no new mail action items; the
+      ads account showed one new unapplied recommendation beside
+      repeat pending items. The Trends deep dive stalled twice,
+      then completed on a further attempt with topic verdicts
+      delivered. A follow-up account test confirmed a new
+      AI-powered Trends surface loads under multiple accounts, so
+      the morning stall was transient. Nothing was changed in
+      any account.
+    begin: 2026-10-16 06:58:00
+    duration: { minutes: 45 }
+
+  - summary: "Oct 9 application batch: follow-up drafts presented, nothing sent"
+    description: |
+      The seven-day follow-up for the two October 9 applications
+      prepared two drafts, presented to the user for approval.
+      One follow-up must confirm receipt because no confirmation
+      persisted from submission; the other offers to send a
+      tailored cover letter if a contact is found. Nothing was
+      sent; a fourteen-day no-response checkpoint is set.
+    begin: 2026-10-16 09:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Workspace payment: tracked assumption corrected"
+    description: |
+      The standing framing of an unpaid workspace subscription
+      was corrected to the user: mailbox evidence shows both a
+      payment-failure notice and a same-day payment confirmation,
+      so which subscription is actually past due is not
+      established. A short settling check in the admin billing
+      history was proposed before any card is funded; a separate
+      account's workspace failure strand is not to be conflated.
+    begin: 2026-10-16 09:25:00
+    duration: { minutes: 15 }
+
+  - summary: "Search Console indexing run blocked on two-step verification"
+    description: |
+      The daily indexing run signed in but stopped at the phone
+      two-step prompt for a third day in a row; the property was
+      never reached, no inspections or requests were made, and
+      quota was untouched. The remaining unverified list is
+      unchanged from its last verified state. The run resumes
+      once the user approves the prompt.
+    begin: 2026-10-16 11:00:00
+    duration: { minutes: 15 }
+
+  - summary: "Email census rolling run stalled after batch 440, recovered at midday"
+    description: |
+      A morning census run tallied one further batch, then died
+      mid-flight leaving the checkpoint in a running state with
+      the next batch fetched and the following one partial.
+      Several later runs exited quietly under the concurrency
+      guard. The checkpoint was verified stale, reset to paused,
+      and the midday recovery run classified the fetched batch,
+      re-fetched the partial batch in full, and continued; the
+      recovery is recorded in that run's own calendar entry.
+    begin: 2026-10-16 10:25:00
+    duration: { minutes: 30 }
+
+  - summary: "Email census rolling run: batches 446-449 tallied (22,450 total)"
+    description: |
+      Continued the full-mailbox census for the main account via
+      the direct read-only Gmail API route. Four batches were
+      fetched and hand-classified in full, bringing the census
+      to 22,450 of 96,744 messages, before the run stalled with
+      the next batch fetched but unclassified. That state was
+      later verified, reset to paused, and recovered losslessly
+      by the afternoon run recorded separately. No mail was
+      deleted or labelled.
+    begin: 2026-10-16 12:45:00
+    duration: { minutes: 30 }
+
+  - summary: "North York General Hospital application: resume uploaded, still blocked"
+    description: |
+      The hospital application advanced through repeated user-
+      cleared bot checks to the portal's profile-creation flow,
+      and the tailored resume was uploaded. Progress then stalled
+      on the portal's credential state: sign-in and account
+      recovery returned contradictory results, and a further bot
+      check walled the resume-processing step. The application
+      is not yet submitted and no data entered has been lost.
+    begin: 2026-10-16 01:30:00
+    duration: { minutes: 60 }
+
+  - summary: "Special job search, Indeed step: Ottawa pass complete, Montreal blocked"
+    description: |
+      The sequential city-by-city platform pass completed its
+      Ottawa run with two verified matches at one employer, both
+      closing at month end, plus logged near-misses. The Montreal
+      pass then stopped early on a platform verification check,
+      left untouched under the user's standing rule, and is
+      parked awaiting his clearance; the remaining cities and
+      later steps queue behind it in order.
+    begin: 2026-10-16 10:20:00
+    duration: { minutes: 60 }
+
+  - summary: "Application account records created for three submitted applications"
+    description: |
+      The three account records queued behind a mail rate limit
+      after the deadline batch were created, one per submitted
+      application. Each record names the portal account and
+      points to where the credential lives; no credential value
+      appears in any record. This closes the batch's bookkeeping.
+    begin: 2026-10-16 14:54:00
+    duration: { minutes: 15 }
+
+  - summary: "Icarus appraisal replies watch: no new replies"
+    description: |
+      The mailbox was checked for valuation replies from the
+      four contacted houses and appraisers. Only the already-
+      reported messages were found; two contacts remain silent
+      and one review is still pending. The watch continues on
+      its existing schedule.
+    begin: 2026-10-16 17:00:00
+    duration: { minutes: 15 }
+
+  - summary: "CiteStreak deep research completed and delivered"
+    description: |
+      A seven-part deep-research commission for a product in
+      development was completed in a single research run and
+      delivered as seven separate reports plus a synthesis,
+      covering demand data sources, prompt behaviour, competitor
+      sourcing, methodology, onboarding, regional markets, and
+      retention. Findings favour the already-paid data vendor
+      and free tiers elsewhere. One launch blocker is recorded
+      openly: a vendor terms clause the cost model depends on
+      still needs reading before that stage ships.
+    begin: 2026-10-16 17:20:00
+    duration: { minutes: 40 }
+
+  - summary: "Access check completed: mail and AI assistant accounts verified"
+    description: |
+      An access check the user requested ahead of a diagnosis he
+      has not yet specified was completed. Mail access was
+      confirmed live through the connector. Access to the AI
+      assistant service was completed through its email sign-in
+      link route for the secondary account and verified in the
+      browser, after the federated sign-in prompts went
+      unapproved and expired. No plan was agreed and nothing was
+      sent. The underlying diagnosis request remains unstated.
+    begin: 2026-10-16 17:46:00
+    duration: { minutes: 30 }
