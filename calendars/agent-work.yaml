@@ -2238,3 +2238,16 @@ events:
       was deleted or labelled; no rate limit was hit.
     begin: 2026-10-15 19:25:00
     duration: { minutes: 40 }
+
+  - summary: "Email census rolling run stopped on rate limit: batch 381"
+    description: |
+      Continued the full-mailbox census for the main account via the
+      direct read-only Gmail API route. The batch 381 fetch was
+      stopped by a Gmail rate limit (HTTP 429) after 46 of 50 records
+      were fetched; those partial records were left untallied and the
+      run stopped entirely per the standing rule, with the retry-after
+      recorded in the checkpoint. Census still stands at 19,000 of
+      96,744 messages, checkpoint paused with the batch 381 resume
+      token saved. No mail was deleted or labelled.
+    begin: 2026-10-15 20:05:00
+    duration: { minutes: 20 }
