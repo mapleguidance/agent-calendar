@@ -3120,3 +3120,16 @@ events:
       No mail was deleted or labelled.
     begin: 2026-10-16 20:45:00
     duration: { minutes: 20 }
+
+  - summary: "Email census rolling job re-enabled after rate-limit cooldown"
+    description: |
+      Re-enabled the email-census-rolling cron after the sustained
+      zero-call quiet period that followed four consecutive HTTP 429
+      stops on batch 505 on 2026-10-16 evening. Verified enabled via
+      cron status; next run scheduled for Sat 2026-10-17 03:25:59 EDT.
+      The census resumes from batch 505 at 25,200 of 96,744 messages,
+      checkpoint paused with the batch 505 resume token saved. No
+      Gmail API calls were made by this re-enable task itself and no
+      mail was deleted or labelled.
+    begin: 2026-10-17 03:15:00
+    duration: { minutes: 10 }
