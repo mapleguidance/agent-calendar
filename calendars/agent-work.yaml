@@ -3133,3 +3133,22 @@ events:
       mail was deleted or labelled.
     begin: 2026-10-17 03:15:00
     duration: { minutes: 10 }
+
+  - summary: "Email census rolling run: 429 stop on batch 505, fifth consecutive (25,200 total)"
+    description: |
+      Continued the full-mailbox census for the main account via the
+      direct read-only Gmail API route. After about six hours nineteen
+      minutes of total API silence (the sustained quiet period the
+      previous run recommended), the batch 505 fetch still hit an
+      HTTP 429 user-rate limit (retry after 2026-10-17T07:31:27Z) on
+      its first call; per the standing rule the run stopped entirely
+      with no retries. This is the fifth consecutive stop on batch
+      505, and the quiet-period hypothesis is now tested and failed,
+      so investigating other Gmail API usage for this mailbox is the
+      recommended next step. The partial batch was not tallied and
+      will be re-fetched in full when the census resumes. Census
+      stands at 25,200 of 96,744 messages, checkpoint paused with the
+      batch 505 resume token saved. Attention list unchanged at 3,222
+      entries. No mail was deleted or labelled.
+    begin: 2026-10-17 03:05:00
+    duration: { minutes: 20 }
