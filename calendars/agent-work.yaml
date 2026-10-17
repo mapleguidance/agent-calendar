@@ -3152,3 +3152,111 @@ events:
       entries. No mail was deleted or labelled.
     begin: 2026-10-17 03:05:00
     duration: { minutes: 20 }
+
+  - summary: "Hermes chat archive for Oct 16: empty day exported, Drive mirror failed"
+    description: |
+      The nightly Hermes archive export for the previous day
+      rendered zero sessions and zero messages (an empty day,
+      not an error) and was committed and pushed to its GitHub
+      archive repo. The Drive mirror failed again with the
+      known folder-not-found error on the disabled account's
+      Drive; no alternate upload was made and the repoint
+      decision remains with the user.
+    begin: 2026-10-17 00:53:00
+    duration: { minutes: 15 }
+
+  - summary: "CiteStreak multi-engine research: two engine sets complete, third under way"
+    description: |
+      The overnight multi-engine pass over the seven research
+      briefs completed the second engine's full set and the
+      third engine's full set, each report saved separately
+      with its sources. The fourth engine's first report is
+      complete; its second brief's first attempt failed on a
+      text-entry problem and a verified retry is running.
+      Cross-engine comparison notes were started and an
+      interim archive was built, flagged as missing the
+      remaining fourth-engine reports. Final assembly and
+      synthesis remain pending behind that set.
+    begin: 2026-10-16 22:00:00
+    duration: { minutes: 120 }
+
+  - summary: "MapleScholar morning investigation: Anticipation day completed"
+    description: |
+      The Saturday investigation completed read-only. Several
+      account sessions were live and several were stale. The
+      ads-email sweep was blocked by a mail connector rate
+      limit and is queued to retry at the evening checkpoint;
+      other resource readings were largely unchanged. A deep
+      research anticipation run completed and refreshed the
+      forward-looking calendar, with unverified leads flagged
+      as such and a reliable near-term spine identified.
+    begin: 2026-10-17 07:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Oct 10 application batch: follow-up drafts presented, nothing sent"
+    description: |
+      The seven-day follow-up for the three submitted October
+      10 applications prepared three tailored drafts, presented
+      to the user for approval; nothing was sent. One draft
+      leads with confirming receipt, another with a status
+      check through the application portal. An inbox check for
+      replies was blocked by a mail connector rate limit, so
+      reply status is unknown rather than none, and must be
+      redone before any draft is sent. A fourteen-day
+      no-response checkpoint is set.
+    begin: 2026-10-17 09:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Email census rolling job disabled again after cooldown test failed"
+    description: |
+      After the re-enabled census run hit a rate limit on its
+      first call despite a sustained zero-call quiet period of
+      over six hours, the rolling census job was disabled a
+      second time and the user was told plainly that the
+      cooldown hypothesis had failed. The census stands paused
+      at its last tallied total with its checkpoint intact.
+      The next step is a console check of the mail API quota
+      for the project, which needs the user; the job is not to
+      be re-enabled until that diagnosis is done.
+    begin: 2026-10-17 08:30:00
+    duration: { minutes: 15 }
+
+  - summary: "Proactive attention items presented, awaiting user choices"
+    description: |
+      Three proactive items were presented to the user with
+      options and no action taken by the agent: an unread
+      court-related attachment flagged for reading, an unpaid
+      cloud invoice whose account still needs identifying, and
+      a grant partner-outreach decision ahead of a filing
+      deadline, with drafts on file and none sent. All three
+      await the user's choices.
+    begin: 2026-10-17 10:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing run completed: five requests accepted"
+    description: |
+      The daily indexing run completed with the session wall
+      cleared and no two-step prompt. Five indexing requests
+      were accepted, including one page that had previously
+      been rejected in a live test. One page failed twice with
+      a transient error and will retry next run; the excluded
+      list was followed as written, and a question about
+      extending that exclusion was put to the user. Quota was
+      not hit, and the not-indexed counts still remain, so the
+      run's retirement condition is not yet met.
+    begin: 2026-10-17 11:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Daily chat archives finalized for Oct 16, Oct 17 snapshot exported"
+    description: |
+      The chat archive run finalized the last completed day's
+      archive as the full day's record, replacing an earlier
+      partial snapshot, and exported a snapshot of the
+      in-progress day, both pushed to the GitHub archive repo.
+      The Drive mirror failed again for both files with the
+      known folder-not-found error on the disabled account's
+      Drive; no alternate upload was made and the repoint
+      decision remains with the user. Two older archive gaps
+      were also noted as still open.
+    begin: 2026-10-17 15:47:00
+    duration: { minutes: 20 }
