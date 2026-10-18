@@ -3260,3 +3260,122 @@ events:
       were also noted as still open.
     begin: 2026-10-17 15:47:00
     duration: { minutes: 20 }
+
+  - summary: "Hermes chat archive for Oct 17: empty day exported, Drive mirror failed"
+    description: |
+      The nightly Hermes archive export for the previous day
+      rendered zero sessions and zero messages (an empty day,
+      not an error) and was committed and pushed to its GitHub
+      archive repo. The Drive mirror failed again with the
+      known folder-not-found error on the disabled account's
+      Drive; no alternate upload was made and the repoint
+      decision remains with the user.
+    begin: 2026-10-18 00:53:00
+    duration: { minutes: 15 }
+
+  - summary: "Sunshade indexing diagnosis: encoding is the cause; owner kept list as-is"
+    description: |
+      A diagnostic run established why one paper page had
+      failed live tests repeatedly since early October: the
+      raw unencoded URL breaks the search console live-test
+      backend, while the percent-encoded form passes and can
+      be indexed; the page itself is fine. Later the same day
+      the owner decided to leave the daily indexing list
+      exactly as-is, keeping the raw form and not extending
+      an existing exclusion; both decisions are settled.
+    begin: 2026-10-18 08:43:00
+    duration: { minutes: 30 }
+
+  - summary: "Subscription renewal pre-check reminder delivered"
+    description: |
+      A scheduled one-off reminder fired for a subscription
+      renewing the next day on a card with a recent failed
+      charge on another service. The user was asked to verify
+      or update the payment card today, or cancel if the
+      renewal is not wanted. No payment or account change was
+      attempted; the decision is the user's.
+    begin: 2026-10-18 09:00:00
+    duration: { minutes: 10 }
+
+  - summary: "MapleScholar morning investigation: Search Console revisit completed"
+    description: |
+      The Sunday investigation completed read-only. The ads
+      mail sweep finished with nothing new, covering the
+      previous day's rate-limit gap. Three account sessions
+      were live and three were stale. A new search milestone
+      message arrived; a failed redirect-validation set was
+      re-verified as redirects to live pages; a known
+      canonical hijack persists on a rotated domain; a
+      payment-declined notice on one account was confirmed
+      live. A new search AI-controls surface was logged and
+      triggers a full re-audit proposed for the next day,
+      which also closes a checklist gap recorded today.
+    begin: 2026-10-18 09:30:00
+    duration: { minutes: 45 }
+
+  - summary: "Search Console indexing run completed: six requests accepted"
+    description: |
+      The daily indexing run completed in full with no
+      sign-in wall. Six requests were submitted and accepted,
+      including the page that had failed thirteen times
+      before, accepted for the first time in its raw form,
+      and all five previously questioned file-hosted URLs.
+      The owner-excluded list was followed. Quota was not
+      hit, and the not-indexed counts still remain, so the
+      run's retirement condition is not yet met.
+    begin: 2026-10-18 11:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Daily chat archives finalized for Oct 17, Oct 18 snapshot exported"
+    description: |
+      The chat archive run finalized the last completed day's
+      archive as the full day's record, replacing an earlier
+      partial snapshot, and exported a snapshot of the
+      in-progress day, both pushed to the GitHub archive repo.
+      The Drive mirror failed again for both files with the
+      known folder-not-found error on the disabled account's
+      Drive; no alternate upload was made and the repoint
+      decision remains with the user.
+    begin: 2026-10-18 15:47:00
+    duration: { minutes: 20 }
+
+  - summary: "Proactive attention items delivered, awaiting user choices"
+    description: |
+      Two proactive items were presented to the user with
+      options and no action taken by the agent: a work-platform
+      location re-verification due the next day, with a
+      temporary hold as the consequence if missed and no
+      record that it was completed; and a cloud billing
+      account terminated earlier than expected, with a
+      reinstatement route that only the user can act on.
+      No payment was made or authorized. Both await the
+      user's choices.
+    begin: 2026-10-18 16:00:00
+    duration: { minutes: 20 }
+
+  - summary: "Transition-home search near user's work area delivered"
+    description: |
+      At the user's request, a search for a transition home
+      near the user's stated work area found no general-purpose
+      option in the immediate area; the three nearest options
+      in a neighbouring district were delivered with a map,
+      covering different admission types. The user has not yet
+      said who the home is for, and narrowing to the right
+      option and admission route is open pending that answer.
+    begin: 2026-10-18 16:30:00
+    duration: { minutes: 20 }
+
+  - summary: "CiteStreak multi-engine research completed and closed"
+    description: |
+      The multi-engine research run closed. The first engine
+      and second engine sets are complete at seven of seven;
+      the third engine finished at two of seven: its first
+      brief was recovered from its completed thread and saved,
+      and its remaining briefs were closed unsubmitted under
+      the user's stated fallback after repeated entry failures.
+      A final synthesis was written and the final archive was
+      delivered, with the missing briefs flagged as
+      user-accepted. Two vendor confirmation drafts remain
+      unsent awaiting the user's approval.
+    begin: 2026-10-18 18:20:00
+    duration: { minutes: 90 }
