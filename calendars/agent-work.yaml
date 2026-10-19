@@ -3481,3 +3481,128 @@ events:
       process for papers entering the rotation.
     begin: 2026-10-19 12:58:00
     duration: { minutes: 218 }
+  - summary: "Daily chat archives finalized for Oct 18, Drive mirror failed"
+    description: |
+      The daily chat archive for Oct 18 was finalized as the full
+      day and exported to the archive repo. The Drive mirror failed
+      again because its folder lives on a permanently disabled
+      account; the repoint decision remains pending with the user.
+      No alternate upload was made.
+    begin: 2026-10-19 00:47:00
+    duration: { minutes: 30 }
+
+  - summary: "Hermes chat archive for Oct 18: empty day exported, Drive mirror failed"
+    description: |
+      The Hermes archive for Oct 18 was exported (an empty day, no
+      sessions) and pushed to its archive repo. The Drive mirror
+      failed again for the same disabled-account reason; the
+      repoint decision remains pending.
+    begin: 2026-10-19 00:53:00
+    duration: { minutes: 20 }
+
+  - summary: "MapleScholar morning investigation: Search Console day, checklist closed"
+    description: |
+      Read-only investigation completed: mail sweep found no new
+      Ads notices, and the full Search Console checklist was closed.
+      Performance and indexing were steady; a redirect validation
+      still fails and a featured-page canonical issue is unchanged.
+      A new generative-AI surface was re-audited: its controls are
+      unchanged and its report baseline was measured. Browser
+      sessions regressed overnight, leaving only the main account
+      live and blocking two Pro-account checks, which were recorded
+      as blocked rather than clean. Nothing was changed.
+    begin: 2026-10-19 06:30:00
+    duration: { hours: 1 }
+
+  - summary: "Monday Top 10 Rotation review: no papers selected (third week)"
+    description: |
+      The weekly rotation review again selected no papers, with all
+      candidates rejected on page-health grounds and a shortfall
+      flagged for a human decision. The notification email could
+      not be sent because the agent mailbox is disabled; the brief
+      is on file locally. Nothing was applied to Ads.
+    begin: 2026-10-19 07:15:00
+    duration: { minutes: 30 }
+
+  - summary: "MapleScholar domain-label audit for the seven new papers"
+    description: |
+      Read-only audit at the user's request: the admin console has
+      no domain field; the only operator classification is the
+      category feed. Public paper pages carry auto-derived domain
+      labels from source metadata at ingestion. The seven new
+      papers' labels were read; three look doubtful and would need
+      a backend change to fix. Nothing was changed.
+    begin: 2026-10-19 07:23:00
+    duration: { minutes: 30 }
+
+  - summary: "LinkedIn and procurement leads triage delivered"
+    description: |
+      A batch of service-marketplace leads was triaged and delivered
+      with two ready-to-send drafts for the fitting leads and
+      reasons for passing on the rest; two procurement leads were
+      assessed as no-go. Nothing was sent; the decision is with
+      the user.
+    begin: 2026-10-19 09:06:00
+    duration: { minutes: 30 }
+
+  - summary: "GitHub org plan watch: Teams upgrade landed, migration decision pending"
+    description: |
+      The weekly plan watch found the former agent org's plan has
+      upgraded, meeting the trigger in the migration plan. The
+      choice to execute the repo migration now or keep it queued
+      was presented to the user; no decision recorded and no
+      migration steps were executed.
+    begin: 2026-10-19 09:47:00
+    duration: { minutes: 15 }
+
+  - summary: "Humanity AI Phase 1 filing packet built"
+    description: |
+      The filing packet for a grant application due Oct 21 was
+      built: the official questions and limits were pulled from
+      the portal, administrative answers were pre-filled from
+      records, and narrative drafts were written within limits.
+      Filing independently means named partners are optional, not
+      a blocker. Four decisions remain the user's ahead of the
+      deadline, including partner outreach and budget choices.
+    begin: 2026-10-19 09:30:00
+    duration: { hours: 1 }
+
+  - summary: "Grants Coordinator application prep brief built (not submitted)"
+    description: |
+      An application prep brief was built for a grants coordinator
+      posting closing Oct 23: the posting was re-verified live and
+      the brief records the application route, the mandatory cover
+      letter, matches, and honest gaps. No application submitted.
+    begin: 2026-10-19 09:40:00
+    duration: { minutes: 45 }
+
+  - summary: "Monday payment and verification items presented"
+    description: |
+      A set of time-sensitive payment and verification items was
+      presented to the user: a past-due office subscription, a
+      workspace payment failure with a suspension date ahead, a
+      subscription renewal due today, and a work-platform location
+      re-verification due today. No payment was made and no
+      completion was recorded for any item.
+    begin: 2026-10-19 10:14:00
+    duration: { minutes: 20 }
+
+  - summary: "Search Console indexing run: seven new papers accepted, regular list incomplete"
+    description: |
+      Under an owner priority override, all seven papers added
+      that morning were inspected as unknown to the search engine
+      and all seven indexing requests were accepted. The regular
+      list was not completed: one inspection failed repeatedly and
+      the session then hit a re-authentication wall. Eleven URLs
+      remain on the standing list.
+    begin: 2026-10-19 11:00:00
+    duration: { minutes: 45 }
+
+  - summary: "Icarus appraisal replies watch: no new replies"
+    description: |
+      The replies watch checked the mailbox for valuation
+      responses: only the two already-reported replies were found.
+      No estimate has been received yet; two parties remain silent
+      and one is still reviewing. The watch continues.
+    begin: 2026-10-19 17:00:00
+    duration: { minutes: 30 }
