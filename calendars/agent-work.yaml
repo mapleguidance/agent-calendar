@@ -3408,3 +3408,19 @@ events:
       stop-and-resume sequence he directed.
     begin: 2026-10-19 06:00:00
     duration: { minutes: 51 }
+
+  - summary: "Seven papers added to MapleScholar via Paper Studio"
+    description: |
+      The seven neotop papers missing from the site were added
+      through Paper Studio per the admin operations manual: three
+      published in the morning run (Bodo, Piwowar, Uyeki) before a
+      stop interrupted the batch, and the remaining four (Ioannidis,
+      Kalesan, Santaella-Tenorio, Jones) finished on the resumed
+      run after a draft state check. Categories were classified
+      against the site's own feed definitions; Uyeki's category
+      was corrected to Trending in Manage Papers. Site total is
+      now 250 published papers. Three of the new papers have no
+      chat (no readable PDF found); all seven AI titles lack the
+      manual's literal Headline prefix - reported, not edited.
+    begin: 2026-10-19 06:05:00
+    duration: { minutes: 71 }
