@@ -3821,3 +3821,262 @@ events:
       restores access. The long-running payment dispute closes.
     begin: 2026-10-20 16:52:00
     duration: { minutes: 40 }
+
+  - summary: "Daily chat archives finalized for Oct 20, Drive mirror failed"
+    description: |
+      The previous day's chat history was archived in full and
+      pushed to the archive repository. The Drive mirror failed
+      again with the same structural error on the disabled
+      account's Drive; repointing it still awaits a user decision.
+    begin: 2026-10-21 00:47:00
+    duration: { minutes: 20 }
+
+  - summary: "Hermes chat archive for Oct 20 exported, Drive mirror failed"
+    description: |
+      The previous day's Hermes chat archive was exported and
+      pushed to its archive repository. The Drive mirror failed
+      with the same error as the main archive; the repoint
+      decision is still pending.
+    begin: 2026-10-21 00:53:00
+    duration: { minutes: 20 }
+
+  - summary: "onlyspx premarket post published on all five channels"
+    description: |
+      The premarket levels were computed from the prior session
+      and the post was published as text on X, Facebook and
+      StockTwits and as image posts on Instagram and YouTube with
+      the link-only caption. The graphic was verified against the
+      computed values and all five channels were verified live.
+    begin: 2026-10-21 06:00:00
+    duration: { minutes: 45 }
+
+  - summary: "MapleScholar morning investigation: PageSpeed day, sessions stale"
+    description: |
+      Read-only investigation: the mail sweep for ads was blocked
+      by a connector rate limit and all browser sessions were
+      stale, so the search, analytics and ads legs could not be
+      verified. The PageSpeed leg completed on a fallback list:
+      page experience is regressing on desktop and the section
+      field data is failing. Owner re-sign-in is needed. Nothing
+      was changed.
+    begin: 2026-10-21 06:30:00
+    duration: { hours: 1 }
+
+  - summary: "Lecture course descriptions, resources and abstracts file built"
+    description: |
+      A combined file was built and verified for a 21-video
+      lecture course: full descriptions, every resource link in
+      full, and an abstract for each video written from its real
+      transcript. Raw descriptions were kept alongside.
+    begin: 2026-10-21 06:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Spring valuation class session map built; Session 15 identified"
+    description: |
+      A screenshot video was identified as a spring valuation
+      class session, its run was mapped from the first available
+      session to the final one, and an earlier playlist scan was
+      corrected after its method proved invalid. The missing
+      preceding session was later identified by chronology and
+      caption evidence, with the remaining uncertainty stated.
+    begin: 2026-10-21 07:21:00
+    duration: { hours: 1 }
+
+  - summary: "Google sessions restored for main and Pro accounts"
+    description: |
+      Both Google sessions were brought live in a coordinated
+      sitting: the main account signed in with its saved login,
+      and the Pro account was signed in by the user personally
+      after its saved password proved stale. A research app under
+      the Pro account was verified loading. No credentials were
+      recorded.
+    begin: 2026-10-21 08:38:00
+    duration: { minutes: 20 }
+
+  - summary: "Partnership inquiry reply drafted (not sent)"
+    description: |
+      A reply draft for a schools partnership inquiry was
+      prepared from the record and left unsent in the grants
+      files for the user to use when wanted.
+    begin: 2026-10-21 09:19:00
+    duration: { minutes: 15 }
+
+  - summary: "Spring 2025 valuation package completed after cancel and restart"
+    description: |
+      The full package was completed on the user's restart after
+      an earlier cancellation over repeated download-approval
+      prompts: all 27 sessions with transcripts, descriptions,
+      abstracts and verified downloads. A standing rule was set
+      that a certain file-host's links are recorded links-only
+      and never downloaded in bulk jobs, and the resumed build
+      followed it with zero such attempts. A few source files
+      were dead at the source and are documented as gaps.
+    begin: 2026-10-21 09:43:00
+    duration: { minutes: 45 }
+
+  - summary: "Transcript app fix rebuilt; acceptance test did not verify"
+    description: |
+      The transcript studio app was rebuilt with a simplified,
+      minimalist design at the user's direction, but its output
+      for the test video did not match the real caption track:
+      the opening and closing lines were invented and the segment
+      pattern was scripted. The verdict was reported plainly:
+      the pipeline fix is not proven, and a corrective round was
+      proposed.
+    begin: 2026-10-21 09:59:00
+    duration: { minutes: 30 }
+
+  - summary: "Family member's flight ticket verified as issued"
+    description: |
+      A long-open travel question was closed: the ticket for a
+      family member's upcoming trip was read in the mailbox and
+      verified as genuinely issued, superseding an earlier
+      paid-but-not-issued state. One name-spelling check against
+      the traveller's passport remains open with the user.
+    begin: 2026-10-21 10:07:00
+    duration: { minutes: 15 }
+
+  - summary: "Family admin bundle delivered: three actionable mail items"
+    description: |
+      Three actionable items in a family member's mailbox were
+      bundled for the user: a membership payment escalation with
+      a short deadline, a housing contact holding an incorrect
+      phone number, and a discount scheme needing an award letter
+      by a December date. Drafts and checklists were prepared;
+      nothing was paid or sent, and two decisions rest with the
+      user.
+    begin: 2026-10-21 10:24:00
+    duration: { minutes: 30 }
+
+  - summary: "Search Console indexing run blocked on sign-in"
+    description: |
+      The scheduled indexing run walled at a phone-approval
+      sign-in challenge and, per the owner's rule, no alternate
+      sign-in method was used. Search Console was never reached:
+      no inspections and no requests were made, and the quota was
+      not hit. The remaining unverified list carries to the next
+      run.
+    begin: 2026-10-21 11:00:00
+    duration: { minutes: 30 }
+
+  - summary: "onlyspx gap post published on all five channels"
+    description: |
+      The market-open gap was a small partial up gap that filled
+      during the session. The draft was shown first in the locked
+      format, then posted with the user's graphic as text on X,
+      Facebook and StockTwits and as image posts on Instagram
+      and YouTube. All five channels were verified live,
+      completing the day's pair of posts.
+    begin: 2026-10-21 09:45:00
+    duration: { minutes: 30 }
+
+  - summary: "Valuation package dead links audited; class-page extras pulled"
+    description: |
+      A dead-link audit recovered most of the supposedly dead
+      files from the course site after tracing a filename
+      pattern, and mapped the few truly missing tests to their
+      sessions as broken at the source. A class-page extras pull
+      then completed, adding exams, quizzes, other sections'
+      tests and company files, with the remaining dead links
+      documented.
+    begin: 2026-10-21 12:15:00
+    duration: { minutes: 45 }
+
+  - summary: "Course-packages repository created on GitHub"
+    description: |
+      A private repository was created for the course transcript
+      packages and the full library was pushed to it, with
+      oversized and scratch material excluded by ignore rules.
+      Running extractions now commit and push each course folder
+      as it completes.
+    begin: 2026-10-21 12:47:00
+    duration: { minutes: 20 }
+
+  - summary: "Probability channel full pull completed, four transcripts missing"
+    description: |
+      A probability lecture channel was pulled in full at the
+      user's direction: all 79 videos enumerated earliest-first,
+      with descriptions, abstracts from the real transcripts,
+      and downloadable files. Transcripts were obtained for 75
+      of 79 videos; the four not retrieved are documented as a
+      gap for a future retry.
+    begin: 2026-10-21 09:09:00
+    duration: { hours: 3 }
+
+  - summary: "Six online course packages completed and pushed"
+    description: |
+      All six remaining online classes by the same lecturer were
+      extracted in full: 143 accessible videos, 142 transcripts
+      and 423 verified downloaded files, one folder per course
+      in the packages repository. One video has captions disabled
+      at the source and one playlist entry is hidden and
+      unretrievable; both gaps are documented. This completed
+      the nine-package library.
+    begin: 2026-10-21 12:33:00
+    duration: { hours: 2 }
+
+  - summary: "Other-professors sweep: no comparable course library found"
+    description: |
+      At the user's question, a business school's faculty pages
+      were swept for another lecturer publishing a full
+      session-by-session downloadable course library. Dozens of
+      live pages were found, all research-paper repositories;
+      the verdict is that the lecturer already packaged is the
+      outlier. No new extraction was commissioned.
+    begin: 2026-10-21 14:35:00
+    duration: { minutes: 30 }
+
+  - summary: "Humanity AI Phase 1 application submitted ahead of deadline"
+    description: |
+      The filing was authorized by the user on deadline day and
+      submitted on the portal well ahead of the evening deadline,
+      filing independently with no partners named after the
+      partner-reply window had closed. The submission was
+      confirmed to the user the same afternoon. One portal
+      checkbox question was left open for the user's call.
+    begin: 2026-10-21 16:22:00
+    duration: { hours: 1 }
+
+  - summary: "Recent Videos category built for the lecturer's channel"
+    description: |
+      A going-forward category was built for recent channel
+      uploads not already in the nine packages: 82 videos with
+      full transcripts, descriptions, abstracts and verified
+      downloads, plus per-video resource folders. File-host
+      links were recorded in full and never downloaded, a few
+      files were dead at the source, and a daily monitor was set
+      up to append future uploads.
+    begin: 2026-10-21 15:26:00
+    duration: { hours: 1 }
+
+  - summary: "Icarus appraisal replies watch: no new replies"
+    description: |
+      The replies watch checked the mailbox for valuation
+      responses: no new messages beyond those already reported.
+      Two parties remain silent and one is still reviewing. The
+      watch continues.
+    begin: 2026-10-21 17:00:00
+    duration: { minutes: 30 }
+
+  - summary: "October 14 application follow-ups: inbox check completed, no replies"
+    description: |
+      Two applications submitted on October 14 were tracked for
+      their follow-up date. The morning inbox check was blocked
+      by a mail rate limit and conditional drafts were held; the
+      evening retry completed and found no employer replies, so
+      the drafts are clear to ride the next scheduled follow-up
+      run. Nothing was sent in this pass.
+    begin: 2026-10-21 17:27:00
+    duration: { minutes: 30 }
+
+  - summary: "Per-lesson resources and library sitemap completed"
+    description: |
+      A capture audit restructured the course-packages library:
+      a resources folder with a manifest was created for every
+      lesson across all ten packages, a capture report was
+      written per package, and a full sitemap of the repository
+      was published in text and machine-readable form. Source
+      errors and unrecoverable dead files found by the audit are
+      documented in the reports.
+    begin: 2026-10-21 17:10:00
+    duration: { hours: 1 }
