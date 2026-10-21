@@ -52,6 +52,14 @@ events:
       interval: { days: 1 }
       until: 2028-01-01 00:00:00
 
+  - summary: "Queue: Damodaran channel monitor (Recent Videos)"
+    description: "Daily check of Aswath Damodaran's YouTube channel; new uploads get the full transcript/description/abstract treatment and are appended to the Recent Videos category in the youtube-transcripts repo. Silent when nothing new. Set up 2026-10-21 at the user's direction."
+    begin: 2026-10-22 10:47:00
+    duration: { minutes: 30 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
   # --- Current items ---
   - summary: "Watch: Icarus estimate responses"
     description: |
