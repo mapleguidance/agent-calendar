@@ -4112,3 +4112,250 @@ events:
       documented in the reports.
     begin: 2026-10-21 17:10:00
     duration: { hours: 1 }
+
+  - summary: "Pro-account sign-in completed via account recovery; alert rule set"
+    description: |
+      The saved password for the Pro account was rejected (it
+      appears stale; no reset was started). Sign-in was completed
+      through the account-recovery path with a phone tap approval,
+      and no password was changed. The recovery generated a
+      security notice to the owner's recovery address, which he
+      found unexplained; a standing rule now requires any
+      recovery-path sign-in or security alert to be reported to
+      him in the moment, naming the path and the notice that
+      will arrive.
+    begin: 2026-10-21 18:55:00
+    duration: { minutes: 30 }
+
+  - summary: "GitHub org migration verified complete; codespace rebuilt"
+    description: |
+      The agent org migration was verified end to end: the old
+      org holds no repositories and the new org holds all of
+      them. Codespaces was enabled for the new org, a replacement
+      coding workspace was created on the notebook mirror repo,
+      the data API key was confirmed present (it transferred with
+      the repo), and a full notebook verification run passed
+      after installing the missing data libraries. Both weekday
+      analysis jobs were repointed to the new workspace and the
+      old workspace was deleted. A display inconsistency in one
+      printed pivot line was flagged for the next run to check.
+    begin: 2026-10-21 19:30:00
+    duration: { hours: 1 }
+
+  - summary: "Google Trends scraper built and live-verified"
+    description: |
+      A Google Trends scraper was built in Python at the user's
+      request: country and city geo targeting, keyword search
+      and batching, related queries, trending feed, caching,
+      rate limiting and proxy support. Live verification passed
+      all ten checks. One limit found: related-topics data is
+      quota-gated from datacenter IPs, and the client raises an
+      explicit error instead of returning fake-empty data; the
+      production path is a residential proxy. Published to
+      GitHub with a Drive mirror.
+    begin: 2026-10-21 19:40:00
+    duration: { hours: 1 }
+
+  - summary: "onlyspx image workflow handed over; indexing confirmed finished"
+    description: |
+      The owner's image-production method was documented: both
+      established image threads open fully, and the day's data
+      block is pasted alone into the established thread to get
+      the next card in the series style, then verified
+      number-for-number before posting. A trial of the agent
+      running this method was approved for the next day, for
+      both the pivots and gap images. The same evening the
+      Search Console indexing queue was confirmed effectively
+      finished: the snapshot is unchanged and the remaining
+      not-indexed items are non-actionable only.
+    begin: 2026-10-21 20:15:00
+    duration: { minutes: 45 }
+
+  - summary: "Queue: flight fare check, London-Bulawayo return (09:47)"
+    description: "Daily fare check for the booked London-Bulawayo return itinerary against the tracking baseline; silent unless a fare movement or a source failure needs reporting. Series added 2026-10-22 to close a record gap: the queue previously had no recurring event."
+    begin: 2026-10-22 09:47:00
+    duration: { minutes: 15 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
+  - summary: "Queue: flight status check, London-Bulawayo return (10:47)"
+    description: "Daily status check of all legs of the booked London-Bulawayo return itinerary against the booked baseline; an alert is sent only on a schedule change, cancellation, diversion or connection risk. Series added 2026-10-22 to close a record gap: the queue previously had no recurring event."
+    begin: 2026-10-22 10:47:00
+    duration: { minutes: 15 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
+  - summary: "Grant submission confirmation: password reset requested, pending owner input"
+    description: |
+      Verifying the grant submission inside the filing portal
+      remained blocked: the account password on record was
+      rejected twice and exists nowhere retrievable. With the
+      owner's explicit approval, a password reset was requested
+      and the reset email was received and read. Completion
+      waits on the owner entering a password through the secure
+      vault card; after that the agent finishes the reset,
+      signs in and reads the submission confirmation in one
+      pass. The in-account confirmation is still unverified,
+      and no password value is recorded anywhere.
+    begin: 2026-10-22 06:05:00
+    duration: { minutes: 30 }
+
+  - summary: "onlyspx premarket: pivots run and image trial passed, posted everywhere"
+    description: |
+      The 6am pivots run succeeded on its first attempt on the
+      new codespace. The image trial's premarket leg passed: the
+      card was generated by pasting the day's block into the
+      established thread, downloaded at full resolution, and
+      verified number-for-number on the first try, then shown
+      to the owner before posting. The premarket post was
+      confirmed live on all five channels.
+    begin: 2026-10-22 06:00:00
+    duration: { minutes: 60 }
+
+  - summary: "Google Ads deep dive: account verified, no-ads card named"
+    description: |
+      The scheduled morning investigation was blocked at a
+      sign-in verification for all accounts; its Ads deep dive
+      was then completed from the main chat at the owner's
+      direction, with no verification screen appearing. The
+      correct account identity was verified (an older note had
+      confused two identifiers), and the ten ad groups named by
+      the no-ads notification were identified: all legacy
+      rotation topics in one campaign. Week performance, assets,
+      recommendations and change history were reviewed, and a
+      sibling sweep of Search Console, Analytics and the AI
+      assistant found nothing new. Read-only; nothing changed.
+    begin: 2026-10-22 06:56:00
+    duration: { minutes: 30 }
+
+  - summary: "Cloud billing account reconciled; suspension-hold appeal sent"
+    description: |
+      A cloud billing account was reconciled from mailbox
+      records against the owner's console figures: the statement
+      history, the payments already landed, and the console
+      total now agree exactly, with four past-due monthly
+      invoices remaining and a suspension deadline late in the
+      month. An earlier note claiming the account was cleared
+      was corrected: that payment had cleared only one small
+      invoice. The receivables correspondence was read in full,
+      and an appeal email making the nonprofit case with an
+      agreed catch-up plan was drafted, shown to the owner,
+      revised twice at his direction, and sent. Reply awaited.
+    begin: 2026-10-22 07:10:00
+    duration: { minutes: 45 }
+
+  - summary: "Stern professors: pages re-checked live, download pattern mapped"
+    description: |
+      After the owner pushed back on an earlier sweep verdict,
+      the richest professor pages at one business school were
+      re-verified live with file-link counts, and a side-by-side
+      check compared the leading page against two peers. Files
+      live inside each professor's own site space (papers, CV
+      and course subfolders); there is no central repository.
+      Content is almost all research papers; slides appear once
+      and datasets are effectively one professor only. The
+      verdict stands: one professor runs the only
+      session-by-session course library. Teaching lines were
+      compiled from the professors' own pages.
+    begin: 2026-10-22 08:20:00
+    duration: { minutes: 60 }
+
+  - summary: "Oct 15 application follow-ups: no replies, six drafts written"
+    description: |
+      The seven-day follow-up run for the six applications
+      submitted on October 15 checked the mailbox in full: no
+      reply, rejection or invitation from any of the six
+      employers since submission; only submission-day
+      confirmations, one of them verified in detail. Six
+      approval-ready follow-up drafts were written using
+      portal-first channels only. Nothing was sent. The next
+      checkpoint is October 29.
+    begin: 2026-10-22 09:00:00
+    duration: { minutes: 30 }
+
+  - summary: "onlyspx gap: posted everywhere, image rejected, then repaired"
+    description: |
+      The 9:45 gap run succeeded on its first attempt. The image
+      trial's gap leg failed verification twice: downloads from
+      the established thread repeatedly served old cards, and a
+      screenshot recovery was substituted and verified for
+      numbers only. Posting completed on all five channels, but
+      the owner then rejected the gap image quality (low
+      resolution, a cursor artifact baked in). Repair: the
+      owner's own verified full card was posted to the image
+      channels, the old video-platform post was deleted and
+      replaced, and the old photo post still awaits deletion in
+      his app (the API cannot delete). A new standing rule
+      requires a continuity-and-likeness check against previous
+      posts in a series before anything goes out, and the gap
+      run was hardened with a no-screenshot rule.
+    begin: 2026-10-22 09:45:00
+    duration: { hours: 3 }
+
+  - summary: "Hosting breach disclosed; owner handling credential rotation"
+    description: |
+      A hosting platform disclosed overnight that stored
+      environment variables may have been exposed, and it
+      invalidated all API tokens. The exposed services were
+      inventoried, including the Monday rotation service, an
+      offline colleague agent with stored credentials, and a
+      parked fleet of services. The owner chose to handle the
+      credential rotation himself; a priority checklist was
+      handed to him and the agent does not touch the
+      credentials. Separately, an AI provider proactively
+      disabled one exposed key, and an unfamiliar sign-in to
+      that account was confirmed by the owner as his contractor
+      team, not an intrusion.
+    begin: 2026-10-22 09:50:00
+    duration: { minutes: 40 }
+
+  - summary: "Video library: hand-picked queue drained"
+    description: |
+      The hand-picked additions queue was fully drained: two
+      entries completed with full transcripts and resources,
+      including one entry's complete set of 48 spreadsheets
+      harvested and classified under the source page's sections.
+      Library totals updated and all commits pushed. A lesson
+      was recorded: never stage downloads in temporary storage
+      (a cleanup destroyed a verified batch mid-work and it had
+      to be re-downloaded); stage under the workspace.
+    begin: 2026-10-22 12:10:00
+    duration: { hours: 1 }
+
+  - summary: "Google Ads Target Rotation: execution pass completed"
+    description: |
+      The owner set the division of labor (Target Rotation is
+      this desk; the brand campaigns belong to a colleague) and
+      ruled that superseded rotation groups are paused, never
+      deleted, so their keywords and history survive. A
+      search-terms audit of nearly a thousand terms found the
+      junk traffic arrives mainly through AI expansion beyond
+      the keyword lists. Execution, all verified live: the
+      broad-match auto-apply was turned off; the nine legacy
+      groups were paused; negatives were added for a symptom
+      cluster, an election-poll cluster, a piracy-list phrase
+      and one exact term; AI Max was turned off for the Target
+      campaign only. The platform refused two negatives because
+      those terms are targeted keywords inside their own group;
+      removing them is the owner's pending decision. Keyword
+      lists for the seven Paper groups found holding zero
+      keywords were presented for approval; nothing loaded yet.
+    begin: 2026-10-22 14:13:00
+    duration: { hours: 2 }
+
+  - summary: "Icarus appraisal replies watch: no new replies"
+    description: |
+      The replies watch checked the mailbox for valuation
+      responses: only the two already-reported October replies
+      plus the owner's own outbound messages were found. No new
+      substantive reply and no estimate yet; two parties remain
+      silent. The watch continues.
+    begin: 2026-10-22 17:00:00
+    duration: { minutes: 30 }
+
+  - summary: "Job applications: Oct 15 batch +14-day checkpoint"
+    description: "Check for employer replies to the six applications submitted on October 15; follow-up drafts are staged and nothing is sent without the owner's word."
+    begin: 2026-10-29 09:00:00
+    duration: { minutes: 30 }
