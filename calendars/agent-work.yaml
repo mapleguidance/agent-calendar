@@ -60,6 +60,38 @@ events:
       interval: { days: 1 }
       until: 2028-01-01 00:00:00
 
+  - summary: "Queue: onlyspx premarket pivots (06:00)"
+    description: "Weekday 06:00 onlyspx premarket run: pivot levels, volatility bands and range stats computed from the analysis notebook, post composed in the locked template, graphic produced and verified before posting. Series added 2026-10-22 to close a record gap: the queue previously appeared only as dated completion entries, never as a recurring event."
+    begin: 2026-10-12 06:00:00
+    duration: { minutes: 45 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
+  - summary: "Queue: onlyspx opening gap analysis (09:45)"
+    description: "Weekday 09:45 onlyspx gap run: the day's opening gap vs the prior close, gap type, fill probability and 5-day gap status, post drafted in the locked template and shown before posting. Series added 2026-10-22 to close a record gap: the queue previously appeared only as dated completion entries, never as a recurring event."
+    begin: 2026-10-12 09:45:00
+    duration: { minutes: 30 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
+  - summary: "Queue: MapleScholar morning investigation (06:30)"
+    description: "Daily 06:30 investigation phase across the MapleScholar resources (notifications sweep plus one resource deep dive on rotation; Thursday is Google Ads). Read-only unless the owner approves a specific fix. Series added 2026-10-22 to close a record gap."
+    begin: 2026-10-12 06:30:00
+    duration: { minutes: 60 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
+  - summary: "Queue: Search Console indexing requests (06:30)"
+    description: "Daily Search Console indexing run for the remaining unindexed MapleScholar paper pages (inspect first; never request a URL that is already on Google). Moved from 11:00 to 06:30 on 2026-10-22 at the owner's direction; series added the same day to close a record gap."
+    begin: 2026-10-12 06:30:00
+    duration: { minutes: 45 }
+    repeat:
+      interval: { days: 1 }
+      until: 2028-01-01 00:00:00
+
   # --- Current items ---
   - summary: "Watch: Icarus estimate responses"
     description: |
