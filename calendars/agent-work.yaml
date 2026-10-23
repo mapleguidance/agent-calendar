@@ -4359,3 +4359,7 @@ events:
     description: "Check for employer replies to the six applications submitted on October 15; follow-up drafts are staged and nothing is sent without the owner's word."
     begin: 2026-10-29 09:00:00
     duration: { minutes: 30 }
+  - summary: "onlyspx formula audit + R3/S3/gap5 fixes"
+    description: "Independent audit (agy, Gemini 3.8 Flash High; Argon not yet entitled to the Pro account) confirmed the notebook's pivots, expected-move and gap formulas against the HandelStat sources. Owner-approved fixes committed to the colab-mirror repo: R3 classic formula (bda6f98), confluence S3 sign fix (50fd7e5), gap5 DST-safe ET window + holiday guard (274d035). All verified; today's R3 7803.50. Exit interview: 2026-10-23--onlyspx-formula-audit-and-fixes."
+    begin: 2026-10-23 08:05:00
+    duration: { minutes: 125 }
